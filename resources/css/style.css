@@ -1,0 +1,110 @@
+html{
+    font-size: 16px;
+}
+
+section {
+    padding-top: 5rem;
+}
+
+h1 {
+    font-family: industry-inc-outline, sans-serif;
+    font-size: 4rem;
+}
+
+h2 {
+    font-family: adelle, serif;
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-family: industry-inc-base, sans-serif;
+    font-size: 3rem;
+    margin: 0;
+}
+
+p {
+    font-family: raleway, sans-serif;
+    font-weight: 400;
+}
+
+a {
+    color: #FA4E4D;
+}
+
+a:hover {
+    color: #FA4E4D;
+}
+
+.bold-type {
+    font-weight: 900;
+    letter-spacing: 0.05rem;
+}
+
+/* Navbar styling */
+.navbar {
+    font-family: raleway, sans-serif;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.nav-item a {
+    margin-right: 2rem;
+    color: #222222;
+}
+
+.nav-item a:hover {
+    color: #FA4E4D;
+}
+
+/* Case Study Cards */
+
+.card a {
+    color: #222222;
+}
+
+/* Footer elements */
+#be-social {
+    margin: auto;
+    text-align: center;
+}
+
+#be-social li {
+    display: inline;
+}
+
+.cats img {
+    position: relative;
+    z-index: 2;
+    margin-bottom: -10%;
+}
+
+#floor {
+    height: 150px;
+    border-top: solid 2px #222222;
+    background-image: url("../images/plywood-tile.jpg");
+}
+
+/* Font Awesome icons */
+i {
+    padding-left: 0.40rem;
+    padding-right: 0.40rem;
+}
+.fa-linkedin:hover {
+    color:#FA4E4D;
+}
+
+.fa-instagram:hover {
+    color:#FA4E4D;
+}
+
+.fa-twitter:hover {
+    color:#FA4E4D;
+}
+
+.fa-github:hover {
+    color:#FA4E4D;
+}
+
+.fa-dribbble:hover {
+    color:#FA4E4D;
+}
