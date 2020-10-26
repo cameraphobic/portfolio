@@ -20,23 +20,26 @@ section {
     display: flex;
     scroll-snap-align: center;
     justify-content: center;
-    max-width: 1400px;
     margin: 0 auto;
     height: 100vh;
 }
 
 #work {
     scroll-snap-align: start;
-    max-width: 1400px;
     margin: 0 auto 15% auto;
 }
 
 #about {
-    max-width: 1400px;
     margin: 0 auto;
     padding-top: 8%;
     scroll-snap-align: start;
 }
+
+@media only screen and (max-width: 600px) {
+    #about {
+       justify-content: center;
+    }
+  }
 
 .insta-gallery {
     margin-top: 10%;
@@ -69,8 +72,19 @@ h4 {
     writing-mode: vertical-rl;  
 }
 
-.em-point_down {
-    padding: 2rem 0;
+@media only screen and (max-width: 992px) {
+    h4 {
+       writing-mode: inherit;
+    }
+
+    i.fa-camera-retro {
+       transform: none;
+    }
+  }
+
+.fa-camera-retro {
+    padding: 0.8rem 0.8rem;
+    transform: rotate(90deg)
 }
 
 p {
@@ -93,11 +107,11 @@ a:hover {
     letter-spacing: 0.05rem;
 }
 
-.white-out {
+/*.white-out {
     color: white;
-}
+}*/
 
-.overlap h1 {
+/*.overlap h1 {
     position: absolute;
     z-index: 2;
     padding-top: .5%;
@@ -105,29 +119,58 @@ a:hover {
 
 .overlap img {
     padding-left: 31%;
-}
+}*/
+
+@media only screen and (min-width: 992px) {
+    span.white-out {
+      color: white;
+    }
+    div.overlap h1 {
+        position: absolute;
+        z-index: 2;
+        padding-top: .5%;
+    }
+    
+    div.overlap img {
+        padding-left: 31%;
+    }
+  }
 
 /* NAVBAR */
 
 .navbar {
     font-family: raleway, sans-serif;
     font-size: 1.5rem;
+    padding-bottom: 3rem;
     text-transform: uppercase;
-    background: rgba(255, 255, 255, 0.8);
+    /*background: rgba(255, 255, 255, 0.8);*/
+    background: linear-gradient(white, 60%, rgba(255, 255, 255, 0));
 }
 
-.nav-item a {
+.navbar-custom .nav-item a {
     margin-right: 2rem;
     color: #222222;
 }
 
-.nav-item a:hover {
+.navbar-custom .nav-item a:hover {
     text-decoration: underline black;
     border-bottom: none;
 }
 
-.nav-item .active {
+.navbar-custom .nav-item .active {
     color: #FA4E4D;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url( 
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");        
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
 }
 
 /* CASE STUDY CARDS */
@@ -135,20 +178,27 @@ a:hover {
 .card {
     border: none;
     padding: 0;
+    margin-bottom: 2rem; 
 }
 
 .card-title {
     margin-top: .5rem;
     margin-bottom: -.5rem;
+    transition-duration: .8s; 
 }
 
 .card a {
     color: #222222;
     text-decoration: none;
+    transition-duration: .8s;
 }
 
 .card a:hover {
-    font-family: industry-inc-base, sans-serif;
+    color: white;
+}
+
+.card-title:hover {
+    margin-top: -4rem;
 }
 
 /* SKILLS CARDS */
@@ -178,6 +228,12 @@ footer {
     display: flex;
     justify-content: space-between;
 }
+
+@media only screen and (max-width: 600px) {
+    div.squeeze {
+      display: none;
+    }
+  }
 
 .cats {
     position: relative;

@@ -5,26 +5,29 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS first, then AOS, then Typekit, then emoji-css, then My Styles -->
+    <!-- Bootstrap CSS first, then Typekit, then emoji-css, then My Styles, then AOS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/qkh0smq.css">
     <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
     <link rel="stylesheet" href="resources/css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Brittany Roberts</title>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS, then AOS, then Font Awesome -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://kit.fontawesome.com/5c8828594f.js" crossorigin="anonymous"></script>
   </head>
   <body data-spy="scroll" data-target=".navbar" data-offset="50">
-    <div class="container-fluid">
+    <div class="container">
     <!-- NAV BAR -->  
-      <nav class="navbar navbar-expand-sm fixed-top justify-content-end">
-        <ul class="navbar-nav">
+      <nav class="navbar navbar-custom navbar-expand-sm justify-content-end fixed-top" data-aos="fade-down">
+        <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+        <ul class="navbar-nav d-flex align-items-end">
           <li class="nav-item">
             <a class="nav-link" href="#home">Home</a>
           </li>
@@ -35,16 +38,17 @@
             <a class="nav-link" href="#about">About</a>
           </li>
         </ul>
+      </div>
       </nav>
     <!-- HOME SECTION -->
     <main class="clearfix"> 
       <section id="home">
       <div class="row align-items-center"> 
-      <div class="col-sm-6">
+      <div class="col-md">
         <img src="resources/images/placeholder-logo.png">
       </div>  
-      <div class="col-sm-6">  
-      <h2>Crafting Digital Products with Purpose & Personality</h2>
+      <div class="col-md">  
+      <h2>Crafting Products with Purpose & Personality</h2>
       <p>Brittany Roberts is a Seattle based UX designer, specializing in visual and interaction design.
         She has been known to wax misty-eyed on the finer points of nondestructive editing and version control.
       </p>
@@ -54,15 +58,15 @@
       </div>
     <!-- WORK SECTION -->
       <section id="work">
-      <div class="row">
-      <div class="card text-center col-sm-6">
+      <div class="row" data-aos="fade-up">
+      <div class="card text-center col-lg">
         <div class="card-body">
           <img class="card-img-top" src="resources/images/placeholder-card.png">
           <h1 class="card-title"><a href="#" class="stretched-link">Transpose</a></h1>
           <h2>One-Click Playlist Converter</h2>
         </div>
       </div>
-      <div class="card text-center col-sm-6">
+      <div class="card text-center col-lg">
         <div class="card-body">
           <img class="card-img-top" src="resources/images/placeholder-card.png">
           <h1 class="card-title"><a href="#" class="stretched-link">Farechild Events</a></h1>
@@ -70,15 +74,15 @@
         </div>
       </div>
       </div>
-      <div class="row">
-        <div class="card text-center col-sm-6">
+      <div class="row" data-aos="fade-up">
+        <div class="card text-center col-lg">
         <div class="card-body">
           <img class="card-img-top" src="resources/images/placeholder-card.png">
           <h1 class="card-title"><a href="#" class="stretched-link">Bite of Seattle</a></h1>
           <h2>Responsive Website Redesign</h2>
         </div>  
         </div>
-        <div class="card text-center col-sm-6">
+        <div class="card text-center col-lg">
         <div class="card-body">
           <img class="card-img-top" src="resources/images/placeholder-card.png">
           <h1 class="card-title"><a href="#" class="stretched-link">Panda Lab</a></h1>
@@ -90,18 +94,18 @@
     <!-- ABOUT SECTION -->
       <section id="about">
       <div class="row align-items-center">
-      <div class="overlap col-sm-6">
+      <div class="overlap col-md">
         <h1>About <span class="white-out">Me</span></h1>
-        <img src="resources/images/placeholder-headshot.png">
+        <img src="resources/images/placeholder-headshot.png" data-aos="fade-up">
       </div>
-      <div class="col-sm-6">
+      <div class="col-md" data-aos="fade-left">
         <h2>UX designer, Fine Arts Defector</h2>
         <p>My heros have always been artists...</p>
         <p><span class="bold-type">Curious about credentials? <a href="#">Download my resume</a></span></p>
         <p><span class="bold-type">Want to work together? <a href="#">brittanyroberts.design@gmail.com</a></span></p>
       </div>
       </div>
-    <!-- SKILLS SECTION
+    <!-- SKILLS SECTION (work in progress)
       <div class="row">
       <div class="col-sm-6"> 
         <h2>Skills & Tools Arsenal</h2>
@@ -150,10 +154,10 @@
         </div>
         </div> -->
         <div class="row insta-gallery">
-          <div class="col-sm-11">
+          <div class="col">
           </div>
-          <div class="col-sm-1">
-            <h4><i class="em em-point_down" aria-role="presentation" aria-label="WHITE DOWN POINTING BACKHAND INDEX"></i>I also take pictures</h4>
+          <div class="col">
+            <h4><i class="fas fa-camera-retro"></i>I also take pictures</h4>
           </div>
         </div>
       </section>
@@ -161,7 +165,7 @@
     <!-- FOOTER -->  
       <footer>
       <div class="row">
-      <div id="be-social" class="col-sm-3">  
+      <div id="be-social" class="col">  
         <h3>Be Social</h3>
         <p>@cameraphobic on most networks<br>(Feel free to <a href="#">email me</a> too)</p>
         <ul class="list-unstyled">
@@ -175,15 +179,21 @@
       </div>
       <div class="row squeeze">
         <div class="cats">
-          <img src="resources/images/placeholder-cat.png" alt="">
+          <img src="resources/images/placeholder-cat.png" alt="" data-aos="fade-right">
         </div>
         <div class="cats">
-          <img src="resources/images/placeholder-cat.png" alt="">
+          <img src="resources/images/placeholder-cat.png" alt="" data-aos="fade-left">
         </div>
       </div>
       <div id="floor" class="row"></div>  
       </footer>
     </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1300
+      });
+    </script>  
   </body>
 
 </html>
