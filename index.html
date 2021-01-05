@@ -1,33 +1,52 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
+    <!-- Meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Brittany Roberts | UX Designer + Visual Thinker | Seattle WA</title>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon.png">
+    <meta name="description" content="Seattle based UX Designer, specializing in front-end design. I craft visually stunning web-based experiences that are inclusive, responsive, and compliant.">
+    <meta name="keywords" content="UX, UI, design, designer, user, experience, visual, case study, portfolio, work, Brittany Roberts, seattle">
 
-    <!-- Bootstrap CSS first, then Typekit, then emoji-css, then My Styles, then AOS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Fonts -->
+    <link href="https://cdn.rawgit.com/h-ibaldo/Raleway_Fixed_Numerals/master/css/rawline.css" rel="stylesheet"> 
     <link rel="stylesheet" href="https://use.typekit.net/qkh0smq.css">
+
+    <!-- Social sharing-->
+
+    <meta property="og:title" content="Brittany Roberts | UX Designer + Visual Thinker">
+    <meta property="og:description" content="Seattle based UX Designer, specializing in front-end design. I craft visually stunning web-based experiences that are inclusive, responsive, and compliant.">
+    <meta property="og:image" content="minimum dimension of 1200×630, aspect ratio of 1.91:1, less than 1MB">
+    <meta property="og:url" content="https://brittanyroberts.design/">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:site_name" content="Brittany Roberts | UX Design">
+    <meta name="twitter:image:alt" content="alt text for image">
+
+    <!-- Bootstrap CSS, emoji-css, My Styles, AOS CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
     <link rel="stylesheet" href="resources/css/style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <title>Brittany Roberts</title>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS, then AOS, then Font Awesome -->
+
+    <!-- jQuery, Popper.js, Bootstrap JS, AOS.js, Clipboard.js, Instafeed.js, Font Awesome -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script>
+    <script type="text/javascript" src="resources/js/instafeed.min.js"></script>
     <script src="https://kit.fontawesome.com/5c8828594f.js" crossorigin="anonymous"></script>
   </head>
   <body data-spy="scroll" data-target=".navbar" data-offset="50">
     <div class="container">
     <!-- NAV BAR -->  
       <nav class="navbar navbar-custom navbar-expand-sm justify-content-end fixed-top" data-aos="fade-down">
-        <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
-        <ul class="navbar-nav d-flex align-items-end">
+        <div class="collapse navbar-collapse justify-content-end" data-toggle="collapse" data-target=".navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav d-flex align-items-center">
           <li class="nav-item">
             <a class="nav-link" href="#home">Home</a>
           </li>
@@ -44,49 +63,59 @@
     <main class="clearfix"> 
       <section id="home">
       <div class="row align-items-center"> 
-      <div class="col-md">
-        <img src="resources/images/placeholder-logo.png">
+      <div class="col-md-5">
+        <picture>
+        <source srcset="resources/images/logo-still.jpg, resources/images/logo-still-600.jpg" media="(prefers-reduced-motion: reduce)"></source>
+        <img src="resources/images/logo-600.gif" srcset="resources/images/logo-loop-800.gif, resources/images/logo-loop.gif" alt="Brittany Roberts Design, animated moths flutter around the logo" class="img-fluid logo">
+        </picture>
       </div>  
-      <div class="col-md">  
+      <div class="col-md-7">  
       <h2>Crafting Products with Purpose & Personality</h2>
-      <p>Brittany Roberts is a Seattle based UX designer, specializing in visual and interaction design.
-        She has been known to wax misty-eyed on the finer points of nondestructive editing and version control.
+      <p>Brittany Roberts is a Seattle based user experience designer with a background in visual arts and a flair for front-end design.
       </p>
       <p><span class="bold-type">Want to work together? <a href="#about">Contact me</a></span></p>
       </div> 
       </section>
       </div>
-    <!-- WORK SECTION -->
+    <!-- WORK SECTION: Change cards to shift with a slow fade for 2.0 -->
       <section id="work">
       <div class="row" data-aos="fade-up">
       <div class="card text-center col-lg">
         <div class="card-body">
-          <img class="card-img-top" src="resources/images/placeholder-card.png">
-          <h1 class="card-title"><a href="#" class="stretched-link">Transpose</a></h1>
+          <div class="transpose"></div>
+          <div class="card-title">
+          <h1><a href="#" class="stretched-link">Transpose</a></h1>
           <h2>One-Click Playlist Converter</h2>
+          </div>
         </div>
       </div>
       <div class="card text-center col-lg">
         <div class="card-body">
-          <img class="card-img-top" src="resources/images/placeholder-card.png">
-          <h1 class="card-title"><a href="#" class="stretched-link">Farechild Events</a></h1>
+          <div class="farechild"></div>
+          <div class="card-title">
+          <h1><a href="case-study-farechild.html" class="stretched-link">Farechild</a></h1>
           <h2>Mobile Ticketing Application</h2>
+          </div>
         </div>
       </div>
       </div>
       <div class="row" data-aos="fade-up">
         <div class="card text-center col-lg">
         <div class="card-body">
-          <img class="card-img-top" src="resources/images/placeholder-card.png">
-          <h1 class="card-title"><a href="#" class="stretched-link">Bite of Seattle</a></h1>
+          <div class="bos"></div>
+          <div class="card-title">
+          <h1><a href="#" class="stretched-link">Bite of Seattle</a></h1>
           <h2>Responsive Website Redesign</h2>
+          </div>
         </div>  
         </div>
         <div class="card text-center col-lg">
         <div class="card-body">
-          <img class="card-img-top" src="resources/images/placeholder-card.png">
-          <h1 class="card-title"><a href="#" class="stretched-link">Panda Lab</a></h1>
-          <h2>Small Business Service Design</h2>
+          <div class="panda"></div>
+          <div class="card-title">
+          <h1><a href="#" class="stretched-link">Panda Lab</a></h1>
+          <h2>Small Business Rebranding</h2>
+          </div>
         </div>
         </div>
         </div>  
@@ -96,16 +125,20 @@
       <div class="row align-items-center">
       <div class="overlap col-md">
         <h1>About <span class="white-out">Me</span></h1>
-        <img src="resources/images/placeholder-headshot.png" data-aos="fade-up">
+        <img class="about-mobile img-fluid" src="resources/images/headshot-300.jpg" alt="Me standing under a tree, looking smart" srcset="resources/images/headshot.jpg" data-aos="fade-up">
       </div>
-      <div class="col-md" data-aos="fade-left">
-        <h2>UX designer, Fine Arts Defector</h2>
-        <p>My heros have always been artists...</p>
-        <p><span class="bold-type">Curious about credentials? <a href="#">Download my resume</a></span></p>
-        <p><span class="bold-type">Want to work together? <a href="#">brittanyroberts.design@gmail.com</a></span></p>
+      <div class="col-md about-mobile" data-aos="fade-left">
+        <h2>UX Designer, Visual Thinker</h2>
+        <p>My heros have always been artists, so imagine my surprise finding a meaningful fit for my skills here in tech.
+          Years spent <a href="http://brittanyroberts.photography" target="_blank" title="brittanyroberts.photography">taking pictures</a> developed my eye for composition, and framing pictures got me hooked on building (analog) products to delight people.
+        </p>
+        <p>In Spring 2020, I completed <a href="https://generalassemb.ly/education/user-experience-design-immersive/seattle" target="_blank" title="UXDI Curriculum & Syllabus">General Assembly’s UX Design Immersive</a> course, then returned to assist with teaching as a Designer in Residence.
+          Working alongside design professionals from across the industry has enriched my own workflow, and my passion for digital products.</p>
+        <p><span class="bold-type">Curious about credentials? <a href="resources/images/BrittanyRobertsResume2020.pdf" target="_blank">Open resume</a></span></p>
+        <p><span class="bold-type">Want to work together? </span><button class="btn" id="click-to-copy" type="button" data-toggle="tooltip" data-placement="bottom" data-clipboard-text="brittanyroberts.design@gmail.com">brittanyroberts.design@gmail.com</button></p>
       </div>
       </div>
-    <!-- SKILLS SECTION (work in progress)
+    <!-- SKILLS SECTION (in progress)
       <div class="row">
       <div class="col-sm-6"> 
         <h2>Skills & Tools Arsenal</h2>
@@ -153,47 +186,79 @@
           </div>
         </div>
         </div> -->
-        <div class="row insta-gallery">
-          <div class="col">
+        <div class="row take-pictures">
+          <div class="col-md-11"> 
+            <div id="instafeed" data-aos="fade-up"></div>
           </div>
-          <div class="col">
-            <h4><i class="fas fa-camera-retro"></i>I also take pictures</h4>
+          <div class="col-md-1">
+            <h4><i class="fas fa-camera-retro"></i>Do it for the 'gram</h4>
           </div>
         </div>
       </section>
     </main>   
     <!-- FOOTER -->  
       <footer>
-      <div class="row">
-      <div id="be-social" class="col">  
+      <div class="row d-flex justify-content-around">
+      <div class="col be-social">  
         <h3>Be Social</h3>
-        <p>@cameraphobic on most networks<br>(Feel free to <a href="#">email me</a> too)</p>
+        <p>@cameraphobic on most networks<br>(Feel free to <a href="#about">email me</a> too)</p>
         <ul class="list-unstyled">
-          <li><i class="fab fa-linkedin fa-2x"></i></li>
-          <li><i class="fab fa-dribbble fa-2x"></i></li>
-          <li><i class="fab fa-twitter fa-2x"></i></li>
-          <li><i class="fab fa-instagram fa-2x"></i></li>
-          <li><i class="fab fa-github fa-2x"></i></li>
+          <li><a href="https://www.linkedin.com/in/brittanyrobertsdesign" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+          <li><a href="https://dribbble.com/cameraphobic" target="_blank"><i class="fab fa-dribbble"></i></a></li>
+          <li><a href="https://twitter.com/cameraphobic" target="_blank"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="https://www.instagram.com/cameraphobic" target="_blank"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="https://github.com/cameraphobic" target="_blank"><i class="fab fa-github"></i></a></li>
         </ul>
       </div>  
       </div>
-      <div class="row squeeze">
-        <div class="cats">
-          <img src="resources/images/placeholder-cat.png" alt="" data-aos="fade-right">
+      <div class="row squeeze d-flex justify-content-between">
+        <div class="col-md-3 cats">
+          <img src="resources/images/rocket-side-small.png" id="rocket" title="Rocket" class="img-fluid" alt="Small calico cat, lying next to housplants" srcset="resources/images/rocket-side.png, resources/images/rocket-side-large.png" data-placement="bottom" data-aos="fade-right" data-aos-duration="2000">
         </div>
-        <div class="cats">
-          <img src="resources/images/placeholder-cat.png" alt="" data-aos="fade-left">
+        <div class="col-md-3 cats">
+          <img src="resources/images/bud-side-small.png" id="bud" title="Bud" class="img-fluid" alt="Fluffy black cat, lying next to houseplants" srcset="resources/images/bud-side.png, resources/images/bud-side-large.png" data-placement="bottom" data-aos="fade-left" data-aos-duration="2000">
         </div>
       </div>
       <div id="floor" class="row"></div>  
       </footer>
     </div>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
+
       AOS.init({
-        duration: 1300
+        duration: 1300 
       });
-    </script>  
+    
+    var clipboard = new ClipboardJS('.btn');
+
+    $('#click-to-copy').tooltip({title: "Click to copy", trigger: 'hover focus'});
+
+    $('#bud').tooltip({title: "Bud", trigger: 'hover focus'});
+    $('#rocket').tooltip({title: "Rocket", trigger: 'hover focus'});
+
+    clipboard.on('success', function(e) {
+      $('#click-to-copy').tooltip('dispose').tooltip({
+        title: "Copied!",
+        trigger: "click",
+      }).tooltip('show');
+    });
+
+    $(document).on('show.bs.tooltip', function (e) {
+      setTimeout(function() {
+        $('#click-to-copy').tooltip('hide');
+      }, 4000);
+    });
+
+
+// INSTAFEED
+
+    var feed = new Instafeed({  
+      accessToken: 'IGQVJVcDJZAcTVXZA2tyMU1HSldtSldOeEpMLTA5RjloTGNyQWRRNTB0UVgxTm1OT3RVYW5CbGtCdW5LUEtBN1pUd3FDTXVON0FzNS00SVZAOM2JVcVhmRzZAUOWpSbWZAyRzNZAQ3JwRjJfMG9iTmJxVGVfMgZDZD',
+      template: '<div class="wrapper"><a href="{{link}}" target="_blank"><img title="{{caption}}" src="{{image}}" /></a></div>',
+      limit: 8,
+    });
+    feed.run();
+  
+    </script>
   </body>
 
 </html>

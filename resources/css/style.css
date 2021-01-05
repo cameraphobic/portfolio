@@ -1,10 +1,56 @@
+/** {
+    border: 1px solid #f00 !important;
+  }*/
+
 html{
     font-size: 16px;
     scroll-behavior: smooth;
 }
 
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    .aos-animate {
+        /*CSS transitions*/
+        -o-transition-property: none !important;
+        -moz-transition-property: none !important;
+        -ms-transition-property: none !important;
+        -webkit-transition-property: none !important;
+        transition-property: none !important;
+        /*CSS transforms*/
+        -o-transform: none !important;
+        -moz-transform: none !important;
+        -ms-transform: none !important;
+        -webkit-transform: none !important;
+        transform: none !important;
+        /*CSS animations*/
+        -webkit-animation: none !important;
+        -moz-animation: none !important;
+        -o-animation: none !important;
+        -ms-animation: none !important;
+        animation: none !important;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    html {
+      font-size: 14px;
+    }
+    section {
+        padding: 0 2rem;
+    }
+  }
+
 body {
     position: relative;
+    overflow-x: hidden;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
 }
 
 main {
@@ -12,34 +58,65 @@ main {
 }
 
 section {
+    max-width: 1400px;
     padding-top: 5rem;
 }
 
 #home {
-    padding-top: 0;
+    padding: 0 10% 0 0;
     display: flex;
     scroll-snap-align: center;
     justify-content: center;
     margin: 0 auto;
     height: 100vh;
+    width: 100vw;
 }
 
 #work {
     scroll-snap-align: start;
-    margin: 0 auto 15% auto;
+    margin: 5% auto 15% auto;
 }
 
 #about {
     margin: 0 auto;
-    padding-top: 8%;
-    scroll-snap-align: start;
+    padding-top: 11%;
+    max-width: 1200px;
 }
 
-@media only screen and (max-width: 600px) {
-    #about {
-       justify-content: center;
+@media(max-width: 768px){
+
+    #home {
+        height: auto;
+        padding-top: 10%;
     }
-  }
+    
+    #home h2 {
+        display: none;
+    }
+
+    #about {
+        padding-top: 15%;
+    }
+
+    .about-mobile[data-aos=fade-left] {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 0;
+        transition-property: transform, opacity;
+    }
+    &.aos-animate {
+        opacity: 1;
+      }
+      .about-mobile[data-aos=fade-up] {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 0;
+        transition-property: transform, opacity;
+    }
+    &.aos-animate {
+        opacity: 1;
+      }
+}
 
 .insta-gallery {
     margin-top: 10%;
@@ -54,25 +131,47 @@ h1 {
 
 h2 {
     font-family: adelle, serif;
-    font-size: 1.5rem;
-    font-weight: 100;
+    font-size: 1.6rem;
+    font-weight: 300;
+    padding-bottom: .6rem;
+}
+
+h2 a:hover {
+    text-decoration: underline solid #FA4E4D;
+    color: black;
+}
+
+h2 a {
+    color: black;
 }
 
 h3 {
     font-family: industry-inc-base, sans-serif;
-    font-size: 3rem;
+    font-size: 3.5rem;
     margin: 0;
 }
 
 h4 {
     font-family: raleway, sans-serif;
     font-weight: 300;
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    writing-mode: vertical-rl;  
+    font-size: 1.2rem;
+    word-spacing: .2rem;
+    writing-mode: vertical-rl;
 }
 
-@media only screen and (max-width: 992px) {
+h5 {
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    margin: 1.2rem 0;
+}
+
+@media only screen and (max-width: 1024px) {
+    .card h1 {
+        font-size: 3rem;
+    }
+
     h4 {
        writing-mode: inherit;
     }
@@ -88,9 +187,20 @@ h4 {
 }
 
 p {
-    font-family: raleway, sans-serif;
+    font-family: rawline, sans-serif;
     font-weight: 400;
     font-size: 1.1rem;
+    line-height: 1.9rem;
+}
+
+ul {
+    font-family: rawline, sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+li {
+    margin-bottom: 1rem;
 }
 
 a {
@@ -103,48 +213,96 @@ a:hover {
 }
 
 .bold-type {
-    font-weight: 900;
-    letter-spacing: 0.05rem;
+    font-weight: 700;
 }
 
-/*.white-out {
-    color: white;
-}*/
-
-/*.overlap h1 {
-    position: absolute;
-    z-index: 2;
-    padding-top: .5%;
+.italic {
+    font-style: italic;
+    margin-right: .1rem;
+    font-weight: 600;
 }
 
-.overlap img {
-    padding-left: 31%;
-}*/
+.all-caps {
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+}
 
-@media only screen and (min-width: 992px) {
+.grey-out {
+    color: grey;
+}
+
+.line-thru {
+    text-decoration: line-through;
+}
+
+figcaption {
+    font-size: 1rem;
+    font-family: raleway, sans-serif;
+    font-style: italic;
+    text-align: center;
+    margin-top: .7rem;
+    color: grey;
+}
+
+.footnote {
+    font-size: 1rem;
+    font-family: raleway, sans-serif;
+    font-style: italic;
+    text-align: center;
+    margin-top: .5rem;
+    margin-right: .2rem;
+    color: grey;
+}
+
+.video-footnote {
+    font-size: 1rem;
+    font-family: raleway, sans-serif;
+    font-style: italic;
+    text-align: center;
+    margin-top: 55%;
+    color: grey;
+}
+/* Note to self: fix the footnote class to display properly under videos*/
+
+@media only screen and (min-width: 1200px) {
     span.white-out {
       color: white;
     }
     div.overlap h1 {
         position: absolute;
         z-index: 2;
-        padding-top: .5%;
+        padding-top: 2%;
     }
     
     div.overlap img {
-        padding-left: 31%;
+        padding-left: 36%;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    div.overlap {
+        text-align: center;
+        margin-bottom: 8%;
     }
   }
 
 /* NAVBAR */
 
 .navbar {
+    background: linear-gradient(rgba(255, 255, 255, 1), 70%, rgba(255, 255, 255, 0));
+}
+
+.navbar ul {
     font-family: raleway, sans-serif;
     font-size: 1.5rem;
-    padding-bottom: 3rem;
+    font-weight: 400;
     text-transform: uppercase;
-    /*background: rgba(255, 255, 255, 0.8);*/
-    background: linear-gradient(white, 60%, rgba(255, 255, 255, 0));
+}
+
+.navbar li {
+    margin: 0;
 }
 
 .navbar-custom .nav-item a {
@@ -173,17 +331,99 @@ a:hover {
     box-shadow: none;
 }
 
+.collapse {
+    padding: 1rem 0;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+/* CASE STUDY LAYOUTS */
+
+header {
+    /*height: 100vh;*/
+    padding-top: 15%;
+} 
+
+.prototype {
+    margin-bottom: 10%;
+}
+
+.case-title {
+    margin: 0;
+    padding: 0;
+}
+
+.case-stats {
+    margin: 2% 0 4% 0;
+    padding: 2rem;
+}
+
+.case-stats h2 {
+    border-top: solid 1px black;
+    padding-top: 1rem;
+    margin-top: 0;
+    line-height: 2.2rem;
+}
+
+.grey-stats {
+    margin: 2% 0 4% 0;
+    padding: 2rem;
+}
+
+.grey-stats h2 {
+    border-top: solid 1px grey;
+    padding-top: 1rem;
+    margin-top: 0;
+    line-height: 2.2rem;
+}
+
+.case-stats .all-caps {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-weight: 500;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+}
+
+.highlighter {
+    font-weight: 500;
+    background: linear-gradient(104deg, rgba(255, 255, 0, 0) 0.9%, rgba(255, 255, 0, 1.25) 2.4%, rgba(255, 255, 0, 0.5) 5.8%, rgba(255, 255, 0, 0.1) 93%, rgba(255, 255, 0, 0.7) 96%, rgba(255, 255, 0, 0) 98%), linear-gradient(183deg, rgba(255, 255, 0,0) 0%, rgba(255, 255, 0, 0.3) 7.9%, rgba(255, 255, 0, 0) 15%);
+    padding: 0;
+    -webkit-box-decoration-break: clone;
+    margin: 0;
+    text-shadow: -12px 12px 9.8px rgba(255, 255, 0, 1), 21px -18.1px 7.3px rgba(255, 255, 255,1), -18.1px -27.3px 30px rgba(255, 255, 255,1);
+    }
+
+/* MODAL STYLING */
+
+.modal-body {
+    padding: 0;
+}
+
+#minnieModal button {
+    color:red;
+    background: none;
+    border: none;
+}
+
+.close:focus,
+.close:active {
+    outline: none;
+    box-shadow: none;
+}
+
 /* CASE STUDY CARDS */
 
 .card {
     border: none;
     padding: 0;
-    margin-bottom: 2rem; 
+}
+
+.card h1 {
+    margin-bottom: -.5rem;
 }
 
 .card-title {
     margin-top: .5rem;
-    margin-bottom: -.5rem;
     transition-duration: .8s; 
 }
 
@@ -199,6 +439,73 @@ a:hover {
 
 .card-title:hover {
     margin-top: -4rem;
+    margin-bottom: 4rem;
+}
+
+.transpose {
+    width: 100%;
+    height: 0;
+    padding-bottom: 66%;
+    background-image: url("../images/transpose-sprite.jpg");
+    background-position: 0 0;
+    background-size: 200%;
+    display: block;
+}
+
+.farechild {
+    width: 100%;
+    height: 0;
+    padding-bottom: 66%;
+    background-image: url("../images/farechild-sprite.jpg");
+    background-position: 0 0;
+    background-size: 200%;
+    display: block;
+}
+
+.bos {
+    width: 100%;
+    height: 0;
+    padding-bottom: 66%;
+    background-image: url("../images/bos-sprite.jpg");
+    background-position: 0 0;
+    background-size: 200%;
+    display: block;
+}
+
+.panda {
+    width: 100%;
+    height: 0;
+    padding-bottom: 66%;
+    background-image: url("../images/panda-sprite.jpg");
+    background-position: 0 0;
+    background-size: 200%;
+    display: block;
+}
+
+.card-body:hover .transpose {
+    background-position: 100% 0;
+}
+
+.card-body:hover .farechild {
+    background-position: 100% 0;
+}
+
+.card-body:hover .bos {
+    background-position: 100% 0;
+}
+
+.card-body:hover .panda {
+    background-position: 100% 0;
+}
+
+@media(hover: hover) and (pointer: coarse) {
+    .card a:hover {
+        color: black;
+    }
+
+    .card-title:hover {
+        margin-top: 0;
+    }
 }
 
 /* SKILLS CARDS */
@@ -209,65 +516,141 @@ a:hover {
     font-size: 1.2rem;
 }
 
+/* INSTAFEED */
+
+.take-pictures {
+    margin-top: 15%;
+}
+
+.take-pictures .col-md-1 {
+    margin: -1% -4% 0 0;
+}
+
+#instafeed {
+    --auto-grid-min-size: 16rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+    grid-gap: .5rem;
+    margin-right: -4%;
+  }
+  
+  #instafeed a {
+    display: block;
+  }
+  
+  #instafeed img {
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  .wrapper {
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+    object-fit: fill;
+    overflow: hidden;   
+}
+
+/* EMAIL BUTTON */
+
+#click-to-copy {
+    color: #FA4E4D;
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 0.05rem;
+    border: none;
+    padding: 0;
+}
+
+#click-to-copy:hover {
+    color: #FA4E4D;
+    text-decoration: underline solid black;
+}
+
 /* FOOTER ELEMENTS */
 
 footer {
-    margin-top: 20%;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: 0;
 }
 
-#be-social {
-    margin: auto;
+.case-footer {
+    margin: 10% auto 0 auto;
+}
+
+
+.be-social {
+    margin: 10% auto 0 auto;
     text-align: center;
 }
 
-#be-social li {
+.be-social li {
     display: inline;
 }
 
 .squeeze {
-    display: flex;
+    margin-bottom: -12rem;
+}
+
+div.col-md-3.cats {
+    padding-right: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    #bud {
+      display: none;
+    }
+
+    #rocket {
+        max-width: 60%;
+    }
+
+    .squeeze {
+        margin-bottom: -10rem;
+    }
+
+    #floor {
+        height: 5rem;
+    }
+
+    #be-social {
+        margin-bottom: 10%;
+    }
+}
+
+.cats img {
+    position: relative;
+    z-index: 2;
     justify-content: space-between;
 }
 
-@media only screen and (max-width: 600px) {
-    div.squeeze {
-      display: none;
-    }
-  }
-
-.cats {
-    position: relative;
-    z-index: 2;
-    margin: 0 2% -2% 2%;
-}
-
 #floor {
-    height: 150px;
+    height: 15rem;
+    background-size: 400px 400px;
     border-top: solid 2px #222222;
     background-image: url("../images/plywood-tile.jpg");
+    background-repeat: repeat;
 }
 
 /* FONT AWESOME ICONS */
-i {
-    padding-left: 0.40rem;
-    padding-right: 0.40rem;
+footer i {
+    padding: 0 0.40rem;
+    color: black;
+    font-size: 2.2rem;
 }
-.fa-linkedin:hover {
+
+footer i:hover {
     color:#FA4E4D;
 }
 
-.fa-instagram:hover {
-    color:#FA4E4D;
-}
-
-.fa-twitter:hover {
-    color:#FA4E4D;
-}
-
-.fa-github:hover {
-    color:#FA4E4D;
-}
-
-.fa-dribbble:hover {
-    color:#FA4E4D;
+@media only screen and (max-width: 1024px) {
+    footer i {
+        padding: 1rem 1rem 0 1rem;
+    }
 }
