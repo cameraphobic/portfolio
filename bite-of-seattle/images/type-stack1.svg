@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="525px" height="352px" viewBox="0 0 525 352" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Artboard</title>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-weight="normal">
+        <g id="Mobile-Hero" transform="translate(1.000000, 115.000000)" fill="#000000">
+            <text id="Hero-mobile" font-family="Mexcellent-Regular, Mexcellent" font-size="30">
+                <tspan x="0" y="30">Hero mobile</tspan>
+            </text>
+            <text id="Mexcellent/Regular/3" font-family="MexcellentMiddle-Regular, Mexcellent" font-size="12">
+                <tspan x="0" y="56">Mexcellent/Regular/35pt</tspan>
+            </text>
+        </g>
+        <g id="Desktop-Hero" fill="#000000">
+            <text id="hero-desktop" font-family="Mexcellent3D-Regular, Mexcellent" font-size="72">
+                <tspan x="0" y="73">hero desktop</tspan>
+            </text>
+            <text id="Mexcellent/3D/100pt" font-family="MexcellentMiddle-Regular, Mexcellent" font-size="12">
+                <tspan x="1" y="99">Mexcellent/3D/100pt</tspan>
+            </text>
+        </g>
+        <g id="Banner-Titles-Mobile" transform="translate(2.000000, 281.000000)" fill="#000000">
+            <text id="Banner-Titles-mobile" font-family="MexcellentBack-Regular, Mexcellent" font-size="40">
+                <tspan x="0" y="40">Banner Titles mobile</tspan>
+            </text>
+            <text id="Mexcellent/Back/40pt" font-family="MexcellentMiddle-Regular, Mexcellent" font-size="12">
+                <tspan x="0" y="69">Mexcellent/Back/40pt</tspan>
+            </text>
+        </g>
+        <g id="Banner-Titles-Desktop" transform="translate(2.000000, 187.000000)" fill="#000000">
+            <text id="Banner-Titles-DESKTO" font-family="MexcellentBack-Regular, Mexcellent" font-size="50">
+                <tspan x="0" y="51">Banner Titles DESKTOP</tspan>
+            </text>
+            <text id="Mexcellent/Back/50pt" font-family="MexcellentMiddle-Regular, Mexcellent" font-size="12">
+                <tspan x="0" y="78">Mexcellent/Back/50pt</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

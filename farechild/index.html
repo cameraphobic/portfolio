@@ -1,0 +1,613 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Mobile Ticketing App | Farechild Events | UX Case Study</title>
+    <link rel="canonical" href="https://brittanyroberts.design/farechild">
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon.png">
+    <meta name="description" content="The folks at Farechild enlisted my student team at General Assembly for a ~2 week sprint to jumpstart their native app design. They challenged us to think beyond QR codes, leverage device hardware, and build a community-oriented platform for niche events.">
+    <meta name="keywords" content="UX, UI, interaction, design, designer, team, sprint, case study, concept, mobile, native, ticketing, event, application, app, farechild, general assembly">
+
+    <!-- Fonts -->
+    <link href="https://cdn.rawgit.com/h-ibaldo/Raleway_Fixed_Numerals/master/css/rawline.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://use.typekit.net/qkh0smq.css">
+
+    <!-- Social sharing-->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@cameraphobic">
+    <meta name="twitter:image:alt" content="3 smartphone screens on a white background, examples include: account creation, QR code ticket, and event listing.">
+
+    <meta property="og:url" content="http://brittanyroberts.design/farechild">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="UX Case Study | Mobile Ticketing App | Brittany Roberts Design">
+    <meta property="og:description" content="The folks at Farechild enlisted my student team at General Assembly for a ~2 week sprint to jumpstart their native app design. They challenged us to think beyond QR codes, leverage device hardware, and build a community-oriented platform for niche events.">
+    <meta property="og:image" content="images/farechild-og-image.jpg">
+
+    <!-- Bootstrap CSS, emoji-css, My Styles, AOS CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+    <link rel="stylesheet" href="../resources/css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- jQuery, Popper.js, Bootstrap JS, AOS.js, Clipboard.js, Instafeed.js, Font Awesome -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script>
+    <script src="https://kit.fontawesome.com/5c8828594f.js" crossorigin="anonymous"></script>
+  </head>
+
+    <!-- NAV BAR -->  
+
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <div class="container">
+      <nav class="navbar navbar-custom navbar-expand-sm justify-content-end fixed-top" data-aos="fade-down">
+        <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" data-toggle="collapse" data-target=".navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav d-flex align-items-center">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="../index.html#work">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html#about">About</a>
+          </li>
+        </ul>
+      </div>
+      </nav>
+
+    <!-- COVER IMAGE/SUMMARY -->
+
+    <main class="clearfix"> 
+      <article>
+      <header>
+        <div class="row">
+          <div class="col-md-8 pr-md-5" data-aos="fade-right"> 
+            <img src="images/farechild-jumbotron-md.jpg" srcset="images/farechild-jumbotron-sm.jpg images/farechild-jumbotron.jpg" alt="Three smartphones showcase different app screens"class="img-fluid">
+        </div>
+          <div class="col-md-4 pt-md-3" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <h2>About the Client</h2>
+            <p><a href="https://farechildevents.com" target="_blank" title="Farechild Events 'Memories Matter Most'">Farechild</a> is an offbeat event production company based in Seattle WA.</p>
+            <p>Spotting a gap in the market, Farechild's founders decided to launch their own mobile ticketing platform to support creators of cannabis friendly events.</p>
+            <p>They enlisted my student team at <a href="https://generalassemb.ly/uxdi-partnerships" target="_blank" title="'Hello UX Partner' Client Project Program">General Assembly</a> for a ~2 week sprint to jumpstart their native app design.</p>
+          </div> 
+        </div>
+        <div class="row" data-aos="fade-up">
+          <div class="col-sm-3 case-stats">
+            <h5>This is a...</h5>
+            <h2 class="text-center">Native App Concept</h2>
+          </div>
+          <div class="col-sm-3 case-stats">
+            <h5>Timeframe</h5>
+            <h2 class="text-center">16 Days</h2>
+          </div>
+          <div class="col-sm-3 case-stats">
+            <h5>My Role</h5>
+            <h2 class="text-center">UX Research, Interaction Design</h2>
+          </div>
+          <div class="col-sm-3 case-stats">
+            <h5>My Team</h5>
+            <h2 class="text-center"><a href="https://maxdavis.design" target="_blank" title="Open Max's Portfolio">Max Davis</a><br> <a href="https://alyssapouleson.com" target="_blank" title="Open Alyssa's Portfolio">Alyssa Poulsen</a></h2>
+          </div>
+        </div>
+      </header>
+
+      <!-- PROTOTYPE EMBED -->
+
+      <section data-aos="fade-up">
+        <div class="row">
+          <div class="col-md-10 d-flex mx-auto embed-responsive embed-responsive-16by9 prototype">
+            <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/429442295"></iframe>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <p class="footnote">Spoiler alert: My team delivered two interactive prototypes to the client. A mobile app for attendees to discover events/purchase tickets — 
+              and a tablet app for organizers to manage multiple events, communicate with guests, and check-in ticket holders at the door.<span class="bold-type"> (click play to view)</span></p>
+          </div>
+        </div>
+      </section>
+
+      <!-- CASE STUDY BODY -->
+
+      <section data-aos="fade-up">  
+        <div class="row mb-md-5 mt-md-5">
+          <div class="col">
+            <h2>Mobile Ticketing — Without the Red Tape</h2>
+            <p>Farechild is developing an app to meet the growing need for 420-friendly event management in the United States. 
+              Most mainstream ticketing apps prohibit transactions for "restricted goods" (including recreational cannabis) in their terms of service.</span>
+              On these platforms — <span class="highlighter">even in states where weed is legal, organizers can't charge admission for events where it will be consumed.</span>
+            </p> 
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-5 d-flex">
+            <div class="my-auto mr-3">
+            <img src="images/albums-md.jpg" srcset="images/albums-sm.jpg" alt="Album covers spread out on a table" class="img-fluid">
+            <p class="footnote"><a href="https://www.instagram.com/thefarechild/" title="@thefarechild" target="_blank">Farechild</a> is a platform for free thinkers</p>
+            </div>
+          </div>   
+        <div class="col-md-7 pt-md-3">
+          <h5>High Level Goals</h5>
+          <ul>
+            <li><span class="bold-type">Design and test a core feature set</span> for ticketing and event management.</li>
+            <li><span class="bold-type">Research and pitch next steps</span> for Farechild to develop a "sticky" product and encourage community building on their platform.</li>
+          </ul>
+          <h5 class="mt-md-5">Questions & Challenges</h5>
+          <ul>
+            <li><span class="bold-type">One app, or two?</span> How might we best meet the needs of two user groups on opposite sides of the ticket transaction?</li>
+            <li><span class="bold-type">Leverage device hardware.</span> How might we utilize cameras, location services, and push notifications?</li>
+          </ul>
+          <h5 class="mt-md-5">We are not...</h5>
+          <ul>
+            <li><span class="line-thru">Reinventing the wheel</span> <span class="italic-lite">Rather, our clients encouraged us to study their competitors for basic functionality, and improve the UX from there.</span></li>
+            <li><span class="line-thru">Designing a payment flow</span> <span class="italic-lite">Our clients are still working out the logistics of credit card processing for cannabis friendly events.</span></li>
+          </ul>
+        </div>
+        </div>
+      </section>
+      <section data-aos="fade-up">
+        <div class="row">  
+          <div class="col">
+            <h2>One App, or Two?</h2>
+            <p>Farechild tasked my team with exploring the potential for overlap between two target customers: event producers and event attendees.
+              <span class="highlighter">Is the best solution two discrete apps for event management and event attendance?
+              Or one app with a hybrid dashboard for producers (who also sometimes attend events)?</span>
+              My team conducted exploratory research with both customer types, and weighed the pros/cons of bundling utilities for producers into a single app.</p>
+          </div>  
+          </div>
+          <figure>
+          <div class="row mt-md-5"> 
+            <div class="col-md-8 mx-auto">
+                <video width="100%" autoplay loop muted playsinline>
+                <source src="images/affinity-map-1080.mp4" type="video/mp4"></source>
+                Your browser does not support the HTML5 video tag.
+                </video>
+                <figcaption class="footnote">Synthesizing interview data as a team in Miro</figcaption>
+            </div>
+          </div>
+          </figure>   
+        </section>
+        <section data-aos="fade-up">
+          <div class="row mb-4"> 
+            <div class="col">
+              <h2>Survey the Crowd</h2>
+              <p class="mb-4">My teammate Max crafted a 10 questions to be answered by <span class="bold-type highlighter">25 survey participants, who'd attended live events in the past year.</span> 
+                The survey established a couple of baselines: What constitutes a good time vs. a bad time? How do attendees leverage technology?</p>
+                <p class="mb-4">The folks at Farechild helped connect us with professionals from the events/entertainment industry. 
+                  My teammate Alyssa and I conducted <span class="bold-type highlighter">3 interviews with event producers</span> to guage preferences and uncover problems with existing event tech.
+                </p>
+              <h5 class="mt-md-5">Attendees Want...</h5>
+              <ul>
+                <li><span class="bold-type">To know what to expect:</span> Feelings of confusion/delay were the most memorable pain points for survey respondents. 
+                  Bottlenecks at the door, oversold seating sections, and interminable wait times tarnished their experience of the event.</li>
+                <li><span class="bold-type">Periodic updates:</span> Regular updates preceding an event was of high importance to survey respondents. 
+                  60% reported that the app/website they booked through is first place they'd check for updates. 30% would check their email first.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row"> 
+            <div class="col">
+              <h5>Producers Need...</h5>
+              <ul>
+                <li><span class="bold-type">Targeted communication:</span> Event producers rely on multiple channels to connect with their guests (email newsletters, texts, social media). 
+                  Personalized communication grows their audience and establishes brand credibility.</li>
+                <li><span class="bold-type">Organizational tools:</span>  All three producers emphasized the importance of tools like calendars, list builders, and note keeping systems.
+                  Device wise, all three producers prefer tablet screens over smartphones for running events.</li>
+                <li><span class="bold-type">Community:</span> In the events/entertainment industry, personal connections are everything. Cultivating a network and learning their guests' preferences is good for business.</li>
+              </ul>
+            </div>
+          </div>   
+        </section>
+        <section data-aos="fade-up">
+        <figure>
+        <div class="row justify-content-center">
+          <div class="col-md-5">
+            <a href="#" data-toggle="modal" data-target="#minnieModal"><img class="img-fluid shadow-sm" src="images/Minnie-md.png"  alt="Minnie, the easygoing attendee persona"></a>
+          </div>
+          <div class="col-md-5">
+            <a href="#" data-toggle="modal" data-target="#cocoModal"><img class="img-fluid shadow-sm" src="images/Coco-md.png" alt="Coco, the connected producer persona"></a>
+          </div>
+        </div>
+        <figcaption>Based on qualitative data/participant demographics, my team created two user personas <span class="bold-type">(click each to expand)</span></figcaption> 
+        </figure> 
+      </section>
+      <section data-aos="fade-up">
+        <div class="row">
+          <div class="col">
+            <h2>Can Confirm — Separate Apps Have Technical Advantages</h2>
+            <p><span class="highlighter">Our interviews uncovered zero demand for a blended attendance/management experience.</span> 
+              We learned that producers rarely need to purchase tickets for themselves, often attending events for free thanks to network connections.</p> 
+              <p>From a technical perspective — I researched rideshare companies and Farechild's direct competitor, Eventbrite, to better understand why two apps might be the best course.
+                (Lyft noteably started out as a hybrid driver/passenger app before <a href="https://www.businessinsider.com/lyft-driver-app-2017-5" target="_blank" title="Business Insider | Lyft launches separate app for drivers">splitting it</a> in 2017.)  
+            </p>
+              <h5 class="mt-md-5">Two Apps are...</h5>
+              <ul class="mb-5">
+                <li><span class="bold-type">Smaller:</span> Unused features waste valuable storage space on mobile devices. 
+                  Bundling producer-level functionality into the app would needlessly impact performance for Farechild's largest customer base: event attendees.</li>
+                <li><span class="bold-type">Faster:</span> Standalone apps will allow Farechild to develop and release new features for both user groups at a faster pace.</li>
+              </ul>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-around">
+          <div class="col-2 pl-md-5">
+            <img class="img-fluid" src="images/uber.svg" alt="Uber app logo">
+            <p class="footnote text-center">Uber</p>
+          </div> 
+          <div class="col-2 pr-md-5">
+            <img class="img-fluid" src="images/uber-driver.svg" alt="Uber Driver app logo">
+            <p class="footnote text-center">Uber Driver</p>
+          </div>
+          <div class="col-2 pl-md-5">
+            <img class="img-fluid" src="images/lyft.svg" alt="Lyft app logo">
+            <p class="footnote text-center">Lyft</p>
+          </div>
+          <div class="col-2 pr-md-5">
+            <img class="img-fluid" src="images/lyft-driver.svg" alt="Lyft Driver app logo">
+            <p class="footnote text-center">Lyft Driver</p>
+          </div>
+          <div class="col-2 pl-md-5">
+            <img class="img-fluid" src="images/eventbrite.svg" alt="Eventbrite app logo">
+            <p class="footnote text-center">Eventbrite</p>
+          </div>
+          <div class="col-2 pr-md-5">
+            <img class="img-fluid" src="images/eventbrite-organizer.svg" alt="Eventbrite Organizer app logo">
+            <p class="footnote text-center">Eventbrite Organizer</p>
+          </div>
+        </div>
+      </section>
+      <section data-aos="fade-up">
+        <div class="row mb-5">  
+          <div class="col">
+            <h2>Making it Stick (a.k.a Problem-Solution Fit)</h2>
+            <p>Our clients challenged us to leverage device hardware — particularly notifications — to devise unique/interactive features and increase the app's "stickiness."
+              A native app presents lots of opportunities to prolong engagement, but only if it provides value to attendees beyond quick ticket transactions and check-ins.</p>  
+            <h5 class="mt-md-5">Novelty ≠ Stickiness</h5>
+              <p class="mt-md-4">My team brainstormed several highflown features together, but none of them addressed real problems from our reaserch.
+                Circling back to our personas Minnie and Coco, I observed complementary needs to <span class="italic">inform</span> and to <span class="italic">be informed.</span></p> 
+                <p><span class="highlighter">Event goers are reassured/engaged when they can easily access up-to-date information from a single source</span> — Minnie will go where the information is.
+                Coco needs a place to publish updates, promote new events, and connect with her guests in a personalized way.</p>
+              <p><span class="highlighter">Farechild can encourage attendees to stick around on their platform between ticket transactions by providing a live information hub.</span> 
+                Meanwhile, they'll support producers by providing a one-stop communication tool for pushing updates to guestlists.</p>  
+            </div>
+          </div>
+          <div class="row mt-md-5">
+            <div class="col-md-10 mx-auto">
+              <img src="images/notebook-lg.png" class="img-fluid" srcset="images/notebook-md.png images/notebook-sm.png" alt="2 pages of sketched ideas and in a yellow notebook"> 
+              <p class="footnote">Nobody asked for jukeboxes or jumbotrons... and survey fatigue is real y'all</p>
+            </div>
+          </div>
+        </section>
+        <section data-aos="fade-up">
+        <div class="row mb-md-5">
+          <div class="col">
+            <h2>Notifications as Crowd Control</h2>
+            <p>In addition to pre-event reminders, <span class="highlighter">organizers can use app notifications to broadcast updates to guests in real time.</span>
+              This feature could be a lifesaver for handling unforseen venue changes (a blocked exit, out-of-order restroom, food shortage, etc).</p>
+          </div>
+        </div>
+        <figure>
+          <div class="row mb-md-5">
+            <div class="col-md-10 mx-auto">
+              <a href="#" data-toggle="modal" data-target="#updateModal"><img class="img-fluid shadow-sm" src="images/user-flow-update.png"></a>
+              <figcaption>Organizers can make sweeping announcements mid-event without interrupting the mood <span class="bold-type">(click to expand)</span></figcaption>
+            </div>
+          </div> 
+          </figure>
+        </section>
+        <section data-aos="fade-up"> 
+        <div class="row mb-md-5">
+          <div class="col">
+            <h2>Oh Sh*t! We Forgot Scotty</h2>
+            <p>While drafting the ticket check-in flow, I realized <span class="highlighter">we were missing a third prospective user — event staff.</span>
+              This revelation came later in the sprint than I would've liked, but I squeezed in one conversation with a volunteer who had worked in admissions for several film festivals. 
+              Based on their insights, I created a proto-persona named Scotty to represent event staff.</p>
+              <h5 class="mt-5">Scotty's Goals</h5>
+            <ul>
+              <li><span class="bold-type">Prevent Bottlenecks:</span> In order to keep the line moving, Scotty needs a check-in flow with as few steps as possible and zero lag time.</li>
+              <li><span class="bold-type">Resolve Conflict:</span> Booking mistakes happen. Scotty needs easy access to guestlists and receipts in order to quickly and courteously diffuse disputes at the door.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row"> 
+          <div class="col-sm-4 pr-md-5">  
+            <figure>
+              <img class="img-fluid shadow-sm" src="../resources/images/placeholder-card.png" alt="Scotty, the seasoned bouncer persona"> 
+              <figcaption>Coco will likely hire check-in staff</figcaption>
+            </figure>
+          </div> 
+          <div class="col-sm-4 pr-md-5">  
+            <figure>
+              <img class="img-fluid shadow-sm" src="images/Scotty-md.png" srcset="images/Scotty-sm.png images/Scotty.png" alt="Scotty, the seasoned bouncer persona"> 
+              <figcaption>Scotty is made of assumptions, not data</figcaption>
+            </figure>
+          </div> 
+          <div class="col-sm-4 pr-md-5">
+            <figure>
+            <a href="#" data-toggle="modal" data-target="#checkinModal"><img class="img-fluid shadow-sm" src="images/user-flow-checkin.png" alt="Flowchart for checking in guests at the door"></a>
+            <figcaption><span class="bold-type">(click to expand)</span></figcaption>  
+          </figure>  
+          </div>
+        </div>
+        </section>
+        <section data-aos="fade-up">
+        <div class="row">
+          <div class="col">
+            <h2>Game Plan for Testing the MVP(s)</h2>
+            <p>My team conducted a mix of remote and in-person moderated usability tests with our two prototypes.
+              Recruiting testers from the events/entertainment industry was a real challenge, so we were fortunate to have the same volunteer who inspired Scotty as a tablet tester for round two.</p> 
+            <h5 class="mt-md-5">Client Goals</h5>
+            <ul>
+              <li><span class="bold-type">Intuitive Navigation:</span> Users are able to orient themselves within the app and complete routine tasks with no errors. We tracked the number of detours/missteps our testers made during routine tasks for each iteration.</li>
+              <li><span class="bold-type">Minimal Friction:</span> Users are able to perform routine tasks quickly and confidently. We measured the amount of time users took to successfully complete routine tasks for each iteration.</li>
+              <li><span class="bold-type">Look and Feel:</span> Users are delighted by the app's features and unique branding. This metric is hard to quantify, so I chose to conduct a <a href="https://www.usability.gov/how-to-and-tools/methods/system-usability-scale.html" target="_blank" title="System Usability Scale | usability.gov">SUS survey</a> during the last round of mobile testing to get some numbers on it for our clients.</li>
+            </ul>  
+          </div>
+        </div>
+        </section>
+        <section data-aos="fade-up">
+        <div class="row mt-md-5">
+          <div class="col-md-7">
+            <h2>Hidden Potential — The Digital Ticket Stub</h2>
+            <p>During attendee-side mobile tests, <span class="highlighter">we observed a pattern of users bypassing the global navigation to hunt for clues on their ticket stubs.</span>
+              When prompted to check for updates or contact customer support, testers went first to purchased tickets — expecting to find links there.</p>
+            <p>My team was &#10024; <span class="italic-lite">excited</span> &#10024; to unlock an existing mental model — <span class="highlighter">which led us to improve the prototype's IA by adding secondary navigation elements to all ticket screens,</span> 
+              resulting in higher task completion rates and a respectable SUS score of 85.5 for the prototype.</p>
+          </div>
+          <div class="col-md-5 my-auto">
+            <figure>
+            <img class="img-fluid" src="images/user_test-md.jpg" srcset="images/user_test-sm.png images/user_test.png" alt="A person tests the Farechld app on a mobile phone, another person (me) types observations on a laptop">
+            <figcaption>In-person test for the attendee-side prototype</figcaption>
+          </figure>   
+          </div>
+        <div class="row mt-md-5">
+          <div class="col-md-10 mx-auto">
+            <figure>
+              <a href="#" data-toggle="modal" data-target="#wire-ticketModal"><img class="img-fluid" src="images/wire-flow-ticket-lg.png" alt="Flowchart of mobile phone screens with red arrows"></a>
+            <figcaption>Minnie can take multiple paths to find event details — via favorites, purchased tickets, or the options menu <span class="bold-type">(click to expand)</span></figcaption> 
+            </figure>
+          </div>
+        </div>
+        </section>
+        <section data-aos="fade-up">
+          <div class="row mt-md-5">
+          <div class="col">
+            <h2>Check (and Prevent) Human Error at the Door</h2>
+            <p>During the last round of producer-side tablet testing, users completed all tasks swiftly and successfully. However — "Scotty" clocked several design pitfalls, which helped us compile a to-do list for future iterations:</p>
+            <h5 class="mb-md-3 mt-md-5">Check In a Guest</h5>
+            <ul class="mb-md-4">  
+              <li><span class="bold-type">Eighty-six the "scan" button.</span> Manual QR capture is technically unecessary and introduces the potential for premature/unsuccessful scans — allow the app to confirm ticket scans automatically for greater accuracy.</li>
+              <li><span class="bold-type">Technology fails.</span> Give users the option to manually type ticket numbers in case the device camera isn't working.</li>
+            </ul>
+          </div>
+          </div>
+          <div class="row justify-content-center mt-md-5 mb-md-4">
+            <div class="col-4 mr-md-5">
+              <figure>
+                <img class="img-fluid" src="images/checkin-before.png" alt="Wireframe of check-in screen before changes">
+                <figcaption><span class="bold-type">Before:</span> Tap "scan" to capture, hope for the best</figcaption>
+              </figure>
+            </div>
+            <div class="col-4 ml-md-5">
+              <figure>
+                <img class="img-fluid" src="images/checkin-after.png" alt="Wireframe of check-in screen after changes">
+                <figcaption><span class="bold-type">After:</span> Allow the app to confirm capture — if it fails, enter ticket number manually</figcaption>
+              </figure>
+            </div>
+          </div>
+          <div class="row">
+          <div class="col">   
+            <h5 class="mt-md-5 mb-md-3">Broadcast an Update</h5>
+            <ul class="mb-md-5">
+              <li><span class="bold-type">Eighty-six the dropdown menu.</span> Provide event-specific thumbnails on the global update screen instead. Choosing from a group of images is faster/more accurate for users who are working multiple events through the app.</li>
+              <li><span class="bold-type">Catch typos.</span> Add a review screen in the messaging flow to help users proofread before they hit publish.</li>
+              <li><span class="bold-type">Email receipts.</span> Add an email option for pre-event updates. If guests don't have notifications enabled, they'll likely miss the memo!</li>
+            </ul>
+            <figure>
+              <a href="#" data-toggle="modal" data-target="#wire-updateModal"><img class="img-fluid" src="images/wire-flow-update-lg.png" alt="Flowchart of mobile screens with red arrows"></a>
+            <figcaption>Revised wireflow (shown in red) to help Coco send messages quickly and confidently <span class="bold-type">(click to expand)</span></figcaption> 
+            </figure>
+          </div>  
+        </div>  
+      </section>
+      <section class="mb-md-0" data-aos="fade-up">
+        <div class="row mt-md-5">
+          <div class="col-md-5">
+            <img src="images/team-md.png" class="img-fluid" srcset="images/team-sm.png" alt="Screenshot of me and 2 teammates smiling on a video call">
+            <p class="footnote">Nothing but love for Team Farechild</p>
+          </div>
+          <div class="col-md-7 pt-md-1">
+            <h2>Closing Thoughts</h2>  
+            <p>This project took place in May of 2020. At the time, we were just beginning to understand that it would be a financially devastating year for the entertainment industry.
+              We did our best to proceed with empathy toward our clients and the event producers who agreed to interviews.</p> 
+            <p>I'm extremely grateful for my hardworking team, our rad clients, and our generous volunteers during this uncertain time.</p>
+          </div>
+        </div>
+        <div class="row mt-md-4">
+          <div class="col"> 
+            <h5>Next Steps & Lessons Learned</h5>
+            <ul>
+              <li class="mb-md-5"><p>The sticky hypothesis — that providing a live information hub will prolong attendee engagement between ticket transactions — is impossible to test without real usage analytics.
+                We'd also need to establish a shared definition of 'prolonged,' and decide what types of engagement to count.</p> 
+                <p>For instance, since event discovery is a core feature — should we count searching and favoriting as proof of prolonged activity? Or only visits to the newsfeed and expired event pages? 
+                  Once parameters are set, Farechild can collect meaningful metrics — number of page visits, time spent on pages, number of likes/comments on producer generated content, etc.</p>
+                <p><span class="highlighter">TL;DR — Define the measuring stick for "stickiness"</span></p></li>
+              
+              <li class="mb-md-5"><p>Dealing in hypotheticals limited the scope of our research/discovery for this project. 
+                In a normal year, we could have studied people's actual behavior by attending/observing live events, this year we relied on self-reporting.</p>
+                <p>In terms of usability, remote tests worked fine for validating basic app navigation. However, we had no way to test interactions <span class="italic">between</span> devices running interdependent prototypes. 
+                  Next steps (especially for the producer-side tablet app) would be on-site observation — ideally shadowing event staff during the admissions process.</p>
+                <p><span class="highlighter">TL;DR — Test overlapping user flows with interdependent prototypes IRL</span></p></li>
+              
+              <li><p>Next time, question assumptions! Farechild recruited my team to design a feature set for their native app(s) after they'd already built most of their browser-based ticketing platform. 
+                This gave us a head start in some areas (visual design, branding), but it also caused us to frame our research around known customers of the web service.</p>
+                <p>Minnie can book tickets from her laptop, and Coco can manage events online, but Scotty has little use for a web app — he's only a core user on event days. 
+                If we had spent a little time storyboarding/writing scenarios before moving forward with the customer profiles our client supplied, we would've accounted for event staff at the beginning of the design process.</p>
+                <p><span class="highlighter">TL;DR — Don't skip scenarios, account for secondary personas early</span></p></li>
+            </ul>
+          </div> 
+        </div>     
+      </section>   
+      </article> 
+    </main>   
+
+    <!-- FOOTER -->
+    
+    <footer class="mt-md-0">
+      <div class="row case-footer d-flex justify-content-around">
+        <div class="col-sm-2 grey-stats order-2 order-md-1">
+          <h5 class="grey-out">Coming Soon</h5>
+          <h2 class="grey-out text-center">Transpose</h2>
+        </div>
+        <div class="col-sm-2 case-stats order-1 order-md-2">
+          <p class="all-caps"><a href="#">Back to Top</a></p>
+        </div> 
+        <div class="col-sm-2 case-stats order-3">
+          <h5>Up Next</h5>
+          <h2 class="text-center"><a href="#" title="(Unsolicited) Responsive Website Redesign">Bite of Seattle</a></h2>
+        </div>  
+      </div>
+      <div class="row d-flex justify-content-between squeeze">
+        <div class="col-md-3 cats">
+          <img src="../resources/images/rocket-side-small.png" id="rocket" title="Rocket" class="img-fluid" alt="Small calico cat, lying next to housplants" srcset="../resources/images/rocket-side.png, ../resources/images/rocket-side-large.png" data-placement="bottom" data-aos="fade-right">
+        </div>
+        <div class="col-md-3 cats">
+          <img src="../resources/images/bud-side-small.png" id="bud" title="Bud" class="img-fluid" alt="Fluffy black cat, lying next to houseplants" srcset="../resources/images/bud-side.png, ../resources/images/bud-side-large.png" data-placement="bottom" data-aos="fade-left">
+        </div>
+      </div>
+      <div id="floor" class="row"></div>  
+    </footer> 
+    </div>
+    <script> 
+
+    //ANIMATE ON SCROLL
+
+      AOS.init({
+        duration: 1300
+      });
+    
+    //CLIPBOARD.JS
+
+    var clipboard = new ClipboardJS('.btn');
+
+    $('#click-to-copy').tooltip({title: "Click to copy", trigger: 'hover focus'});
+
+    $('#bud').tooltip({title: "Bud", trigger: 'hover focus'});
+    $('#rocket').tooltip({title: "Rocket", trigger: 'hover focus'});
+
+    clipboard.on('success', function(e) {
+      $('#click-to-copy').tooltip('dispose').tooltip({
+        title: "Copied!",
+        trigger: "click",
+      }).tooltip('show');
+    });
+
+    $(document).on('show.bs.tooltip', function (e) {
+      setTimeout(function() {
+        $('#click-to-copy').tooltip('hide');
+      }, 4000);
+    });
+  
+  
+    </script>
+  </body>
+
+            <!-- Minnie Modal -->
+            <div class="modal fade" id="minnieModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+                <div class="modal-content rounded-0">
+                  <div class="modal-header border-0">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <img class="img-fluid" src="images/Minnie-xl.png">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Coco Modal -->
+            <div class="modal fade" id="cocoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+                <div class="modal-content rounded-0">
+                  <div class="modal-header border-0">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <img class="img-fluid" src="images/Coco-xl.png">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Update Flow Modal -->
+            <div class="modal fade" id="updateModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+                <div class="modal-content rounded-0">
+                  <div class="modal-header border-0">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <img class="img-fluid" src="images/user-flow-update-xl.png">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Check In Flow Modal -->
+            <div class="modal fade" id="checkinModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+                <div class="modal-content rounded-0">
+                  <div class="modal-header border-0">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <img class="img-fluid" src="images/user-flow-checkin-xl.png">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Update Wire Flow Modal -->
+            <div class="modal fade" id="wire-updateModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+                <div class="modal-content rounded-0">
+                  <div class="modal-header border-0">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <img class="img-fluid" src="images/wire-flow-update-xl.png">
+                  </div>
+                </div>
+              </div>
+            </div> 
+            <!-- Ticket Wire Flow Modal -->
+            <div class="modal fade" id="wire-ticketModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+                <div class="modal-content rounded-0">
+                  <div class="modal-header border-0">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <img class="img-fluid" src="images/wire-flow-ticket-xl.png">
+                  </div>
+                </div>
+              </div>
+            </div>             
+
+</html>

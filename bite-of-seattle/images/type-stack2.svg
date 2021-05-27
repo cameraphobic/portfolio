@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="525px" height="352px" viewBox="0 0 525 352" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Artboard</title>
+    <defs>
+        <text id="text-1" font-family="MexcellentMiddle-Regular, Mexcellent" font-size="35" font-weight="normal" fill="#FF677C">
+            <tspan x="0" y="35">colorpop Header mobile</tspan>
+        </text>
+        <filter x="-0.7%" y="-6.0%" width="101.8%" height="116.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="2" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 0.792156863   0 0 0 0 0.223529412  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <text id="text-3" font-family="MexcellentMiddle-Regular, Mexcellent" font-size="45" font-weight="normal" fill="#FF677C">
+            <tspan x="0" y="45">Colorpop Header desktop</tspan>
+        </text>
+        <filter x="-0.6%" y="-5.6%" width="101.7%" height="120.4%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="3" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 0.792156863   0 0 0 0 0.223529412  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 0.792156863   0 0 0 0 0.223529412  0 0 0 1 0" type="matrix" in="shadowOffsetOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Display-Header-Mobile" transform="translate(-0.000000, 294.000000)" fill="#000000" font-family="MexcellentMiddle-Regular, Mexcellent" font-weight="normal">
+            <text id="Mexcellent/Middle/35" font-size="12">
+                <tspan x="0" y="56">Mexcellent/Middle/35pt/+3px Border</tspan>
+            </text>
+            <text id="Display-Header-mobil" stroke="#000000" stroke-width="3" font-size="35">
+                <tspan x="0" y="35">Display Header mobile</tspan>
+            </text>
+        </g>
+        <g id="Display-Header-Desktop" transform="translate(-0.000000, 196.000000)" fill="#000000" font-family="MexcellentMiddle-Regular, Mexcellent" font-weight="normal">
+            <text id="Mexcellent/Middle/45" font-size="12">
+                <tspan x="0" y="66">Mexcellent/Middle/45pt/+3px Border</tspan>
+            </text>
+            <text id="Display-Header-deskt" stroke="#000000" stroke-width="3" font-size="45">
+                <tspan x="0" y="45">Display Header desktop</tspan>
+            </text>
+        </g>
+        <g id="Colorpop-Header-Mobile" transform="translate(1.000000, 109.000000)">
+            <text id="Mexcellent/Middle/35" font-family="MexcellentMiddle-Regular, Mexcellent" font-size="12" font-weight="normal" fill="#000000">
+                <tspan x="0" y="56">Mexcellent/Middle/35pt/+3px Border (Pink Elephant)/+Shadow (Dahlia Yellow), 3 x, 3 y, blur: 0</tspan>
+            </text>
+            <g id="colorpop-Header-mobi" stroke="#FF677C" stroke-width="3">
+                <use fill="#FF677C" fill-opacity="1" stroke-opacity="1" filter="url(#filter-2)" xlink:href="#text-1"></use>
+                <use fill="#FF677C" fill-opacity="1" stroke-opacity="1" xlink:href="#text-1"></use>
+                <use xlink:href="#text-1"></use>
+            </g>
+        </g>
+        <g id="Colorpop-Header-Desktop" transform="translate(-0.000000, 11.000000)">
+            <text id="Mexcellent/Middle/45" font-family="MexcellentMiddle-Regular, Mexcellent" font-size="12" font-weight="normal" fill="#000000">
+                <tspan x="2" y="66">Mexcellent/Middle/45pt/+3px Border (Pink Elephant)/+Shadow (Dahlia Yellow) 3 x, 3 y, blur: 0</tspan>
+            </text>
+            <g id="Colorpop-Header-desk" stroke="#FF677C" stroke-width="3">
+                <use fill="#FF677C" fill-opacity="1" stroke-opacity="1" filter="url(#filter-4)" xlink:href="#text-3"></use>
+                <use fill="#FF677C" fill-opacity="1" stroke-opacity="1" xlink:href="#text-3"></use>
+                <use xlink:href="#text-3"></use>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1925px" height="1173px" viewBox="0 0 1925 1173" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Artboard</title>
+    <defs>
+        <rect id="path-1" x="0.78125" y="0" width="380" height="171"></rect>
+        <rect id="path-3" x="0.78125" y="0" width="310" height="114"></rect>
+    </defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(469.000000, 43.000000)">
+            <rect id="Rectangle" stroke="#979797" stroke-width="2" x="-1" y="-1" width="1442" height="1024"></rect>
+            <rect id="Rectangle" stroke="#979797" fill="#D8D8D8" x="0.5" y="0.5" width="1439" height="152"></rect>
+            <text id="BITE-OF-SEATTLE" font-family="STHeitiSC-Medium, Heiti SC" font-size="60" font-weight="bold" fill="#000000">
+                <tspan x="505.3" y="98">BITE OF SEATTLE</tspan>
+            </text>
+            <g id="Navigation" transform="translate(24.000000, 165.000000)">
+                <text id="Home" font-family="ArialMT, Arial" font-size="16" font-weight="normal" fill="#000000">
+                    <tspan x="0" y="18">Home </tspan>
+                </text>
+                <text id="Food-&amp;-Drink" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#000000">
+                    <tspan x="104" y="18">Food &amp; Drink </tspan>
+                </text>
+                <text id="Entertainment-&amp;-Attr" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#000000">
+                    <tspan x="246" y="18">Entertainment &amp; Attractions</tspan>
+                </text>
+                <text id="Admission-Packages" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#000000">
+                    <tspan x="472" y="18">Admission Packages</tspan>
+                </text>
+                <text id="Plan-Your-Bites!" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#000000">
+                    <tspan x="658" y="18">Plan Your Bites!</tspan>
+                </text>
+                <text id="Get-in-Touch!" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#000000">
+                    <tspan x="813" y="18">Get in Touch!</tspan>
+                </text>
+                <text id="Get-Involved!" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#000000">
+                    <tspan x="952" y="18">Get Involved!</tspan>
+                </text>
+                <text id="Sponsors" font-family="ArialMT, Arial" font-size="14" font-weight="normal" fill="#000000">
+                    <tspan x="1091" y="18">Sponsors</tspan>
+                </text>
+                <g id="Search" transform="translate(1195.000000, 3.000000)" stroke="#000000">
+                    <ellipse id="Oval" cx="6.5" cy="7" rx="6" ry="6.5"></ellipse>
+                    <line x1="17.65" y1="18.65" x2="11" y2="12" id="Line-2" stroke-linecap="square"></line>
+                </g>
+                <rect id="Rectangle" stroke="#000000" x="1191.5" y="0.5" width="204" height="24"></rect>
+            </g>
+            <text id="Skip-the-Line-and-Sa" font-family="STHeitiSC-Medium, Heiti SC" font-size="20" font-weight="bold" fill="#000000">
+                <tspan x="612.39" y="246">Skip the Line and Save!</tspan>
+            </text>
+            <text id="While-General-Admiss" font-family="ArialMT, Arial" font-size="11" font-weight="normal" fill="#000000">
+                <tspan x="431.768555" y="269">While General Admission is always free, the Bite also offers 4 admission packages for </tspan>
+                <tspan x="852.207031" y="269" font-family="Arial-BoldMT, Arial" font-weight="bold">discounted</tspan>
+                <tspan x="910.875488" y="269"> food and beverages.</tspan>
+                <tspan x="723" y="281"></tspan>
+                <tspan x="431.526855" y="293">Choose your level of contirbution at checkout and provide meals to those in need through Seattle’s Food Lifeline charity.</tspan>
+                <tspan x="723" y="305"></tspan>
+                <tspan x="493.998047" y="317">Additional full priced food and beverage items are available to purchase separately at the Bite!</tspan>
+            </text>
+            <g id="EXPERIENCE-BITE-Copy" transform="translate(330.000000, 358.000000)">
+                <rect id="Rectangle" fill="#D8D8D8" x="0" y="0" width="380" height="248"></rect>
+                <text id="+" font-family="ArialMT, Arial" font-size="20" font-weight="normal" fill="#000000">
+                    <tspan x="185" y="196">+</tspan>
+                </text>
+                <text id="EXPERIENCE-BITE!-TAS" font-family="ArialMT, Arial" font-size="16" font-weight="normal" fill="#000000">
+                    <tspan x="46" y="29">EXPERIENCE BITE! TASTING BUNDLE</tspan>
+                </text>
+                <g id="Bronze" transform="translate(45.000000, 45.000000)">
+                    <circle id="Oval" stroke="#979797" fill="#D8D8D8" cx="30" cy="30" r="29.5"></circle>
+                    <text id="Bronze-$37" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#000000">
+                        <tspan x="11.4892578" y="27">Bronze</tspan>
+                        <tspan x="20.4892578" y="41">$37</tspan>
+                    </text>
+                    <text id="5-meals-donated!" font-family="ArialMT, Arial" font-size="11" font-weight="normal" fill="#000000">
+                        <tspan x="11.2419434" y="75">5 meals</tspan>
+                        <tspan x="9.09082031" y="87">donated!</tspan>
+                    </text>
+                </g>
+                <g id="Silver" transform="translate(122.000000, 45.000000)">
+                    <circle id="Oval-Copy" stroke="#979797" fill="#D8D8D8" cx="30" cy="30" r="29.5"></circle>
+                    <text id="Silver-$40" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#000000">
+                        <tspan x="15.4970703" y="27">Silver</tspan>
+                        <tspan x="20.4892578" y="41">$40</tspan>
+                    </text>
+                    <text id="12-meals-donated!" font-family="ArialMT, Arial" font-size="11" font-weight="normal" fill="#000000">
+                        <tspan x="8.18310547" y="75">12 meals</tspan>
+                        <tspan x="9.09082031" y="87">donated!</tspan>
+                    </text>
+                </g>
+                <g id="Gold" transform="translate(198.000000, 45.000000)">
+                    <circle id="Oval-Copy-2" stroke="#979797" fill="#D8D8D8" cx="30" cy="30" r="29.5"></circle>
+                    <text id="Gold-$42" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#000000">
+                        <tspan x="17.3261719" y="27">Gold</tspan>
+                        <tspan x="19.9892578" y="41">$42</tspan>
+                    </text>
+                    <text id="20-meals-donated!" font-family="ArialMT, Arial" font-size="11" font-weight="normal" fill="#000000">
+                        <tspan x="8.18310547" y="75">20 meals</tspan>
+                        <tspan x="9.09082031" y="87">donated!</tspan>
+                    </text>
+                </g>
+                <g id="Plat" transform="translate(275.000000, 45.000000)">
+                    <circle id="Oval-Copy-3" stroke="#979797" fill="#D8D8D8" cx="30" cy="30" r="29.5"></circle>
+                    <text id="40-meals-donated!" font-family="ArialMT, Arial" font-size="11" font-weight="normal" fill="#000000">
+                        <tspan x="8.18310547" y="75">40 meals</tspan>
+                        <tspan x="9.09082031" y="87">donated!</tspan>
+                    </text>
+                    <text id="Platinum-$47" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#000000">
+                        <tspan x="7.15625" y="27">Platinum</tspan>
+                        <tspan x="20.4892578" y="41">$47</tspan>
+                    </text>
+                </g>
+                <text id="The-Alley-Tasting-6" font-family="Arial-BoldMT, Arial" font-size="12" font-weight="bold" fill="#000000">
+                    <tspan x="141.492188" y="158">The Alley Tasting</tspan>
+                    <tspan x="239.507812" y="158" font-family="ArialMT, Arial" font-weight="normal"> </tspan>
+                    <tspan x="75.2138672" y="172" font-family="ArialMT, Arial" font-weight="normal">6 Large Bites from 6 Top Local Restaurants</tspan>
+                </text>
+                <text id="Craft-Beer-&amp;-Cider-T" font-family="Arial-BoldMT, Arial" font-size="12" font-weight="bold" fill="#000000">
+                    <tspan x="100.089844" y="214">Craft Beer &amp; Cider Tasting (21+) </tspan>
+                    <tspan x="284.244141" y="214" font-family="ArialMT, Arial" font-weight="normal"></tspan>
+                    <tspan x="81.4013672" y="228" font-family="ArialMT, Arial" font-weight="normal">Commemorative Tasting Glass + 6 Pours</tspan>
+                </text>
+            </g>
+            <g id="THE-ALLEY-Copy" transform="translate(730.000000, 359.000000)">
+                <rect id="Rectangle" fill="#D8D8D8" x="0" y="0" width="380" height="246"></rect>
+                <text id="THE-ALLEY-TASTING-CO" font-family="ArialMT, Arial" font-size="16" font-weight="normal" fill="#000000">
+                    <tspan x="73" y="28">THE ALLEY TASTING COURSE</tspan>
+                </text>
+                <g id="Bronze" transform="translate(45.000000, 44.000000)">
+                    <circle id="Oval" stroke="#979797" fill="#D8D8D8" cx="30" cy="30" r="29.5"></circle>
+                    <text id="Bronze-$37" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#000000">
+                        <tspan x="11.4892578" y="27">Bronze</tspan>
+                        <tspan x="20.4892578" y="41">$37</tspan>
+                    </text>
+                    <text id="5-meals-donated!" font-family="ArialMT, Arial" font-size="11" font-weight="normal" fill="#000000">
+                        <tspan x="11.2419434" y="75">5 meals</tspan>
+                        <tspan x="9.09082031" y="87">donated!</tspan>
+                    </text>
+                </g>
+                <g id="Silver" transform="translate(122.000000, 44.000000)">
+                    <circle id="Oval-Copy" stroke="#979797" fill="#D8D8D8" cx="30" cy="30" r="29.5"></circle>
+                    <text id="Silver-$40" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#000000">
+                        <tspan x="15.4970703" y="27">Silver</tspan>
+                        <tspan x="20.4892578" y="41">$40</tspan>
+                    </text>
+                    <text id="12-meals-donated!" font-family="ArialMT, Arial" font-size="11" font-weight="normal" fill="#000000">
+                        <tspan x="8.18310547" y="75">12 meals</tspan>
+                        <tspan x="9.09082031" y="87">donated!</tspan>
+                    </text>
+                </g>
+                <g id="Gold" transform="translate(198.000000, 44.000000)">
+                    <circle id="Oval-Copy-2" stroke="#979797" fill="#D8D8D8" cx="30" cy="30" r="29.5"></circle>
+                    <text id="Gold-$42" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#000000">
+                        <tspan x="17.3261719" y="27">Gold</tspan>
+                        <tspan x="19.9892578" y="41">$42</tspan>
+                    </text>
+                    <text id="20-meals-donated!" font-family="ArialMT, Arial" font-size="11" font-weight="normal" fill="#000000">
+                        <tspan x="8.18310547" y="75">20 meals</tspan>
+                        <tspan x="9.09082031" y="87">donated!</tspan>
+                    </text>
+                </g>
+                <g id="Plat" transform="translate(275.000000, 44.000000)">
+                    <circle id="Oval-Copy-3" stroke="#979797" fill="#D8D8D8" cx="30" cy="30" r="29.5"></circle>
+                    <text id="40-meals-donated!" font-family="ArialMT, Arial" font-size="11" font-weight="normal" fill="#000000">
+                        <tspan x="8.18310547" y="75">40 meals</tspan>
+                        <tspan x="9.09082031" y="87">donated!</tspan>
+                    </text>
+                    <text id="Platinum-$47" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#000000">
+                        <tspan x="7.15625" y="27">Platinum</tspan>
+                        <tspan x="20.4892578" y="41">$47</tspan>
+                    </text>
+                </g>
+                <text id="6-Large-Bites-from-6" font-family="Arial-BoldMT, Arial" font-size="12" font-weight="bold" fill="#000000">
+                    <tspan x="66.9140625" y="172">6 Large Bites from 6 Top Local Restaurants</tspan>
+                    <tspan x="314.085938" y="172" font-family="ArialMT, Arial" font-weight="normal"></tspan>
+                    <tspan x="190.5" y="186" font-family="ArialMT, Arial" font-weight="normal"></tspan>
+                    <tspan x="24.1787109" y="200" font-family="ArialMT, Arial" font-weight="normal">*Upgrade package option to include Craft Beer &amp; Cider Tasting </tspan>
+                    <tspan x="79.5908203" y="214" font-family="ArialMT, Arial" font-weight="normal">available onsite only: Additional $22 (21+) </tspan>
+                </text>
+            </g>
+            <rect id="Rectangle" fill="#D8D8D8" x="330" y="625" width="380" height="172"></rect>
+            <text id="BEER-+CIDER-TASTING" font-family="ArialMT, Arial" font-size="16" font-weight="normal" fill="#000000">
+                <tspan x="408" y="660">BEER +CIDER TASTING (21+)</tspan>
+            </text>
+            <text id="Commemorative-Tastin" font-family="Arial-BoldMT, Arial" font-size="12" font-weight="bold" fill="#000000">
+                <tspan x="487.916992" y="701">Commemorative Tasting Glass </tspan>
+                <tspan x="571.996094" y="715">+ </tspan>
+                <tspan x="490.802734" y="729">6 Pours from Local Breweries</tspan>
+            </text>
+            <g id="Rectangle" transform="translate(730.218750, 625.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+            </g>
+            <g id="Bucks-icon" transform="translate(786.000000, 696.000000)">
+                <rect id="Rectangle" stroke="#979797" stroke-width="2" x="1" y="1" width="82" height="45"></rect>
+                <text id="$B" font-family="ArialMT, Arial" font-size="20" font-weight="normal" fill="#979797">
+                    <tspan x="30.2685547" y="31">$B</tspan>
+                </text>
+            </g>
+            <text id="$17-for-20-‘BITE-IT’" font-family="ArialMT, Arial" font-size="16" font-weight="normal" fill="#000000">
+                <tspan x="832" y="657">$17 for 20 ‘BITE IT’ BUCKS</tspan>
+            </text>
+            <text id="As-good-as-cash!-Bit" font-family="Arial-BoldMT, Arial" font-size="12" font-weight="bold" fill="#000000">
+                <tspan x="889" y="704">As good as cash!</tspan>
+                <tspan x="988.357422" y="704" font-family="ArialMT, Arial" font-weight="normal"></tspan>
+                <tspan x="889" y="718" font-family="ArialMT, Arial" font-weight="normal"></tspan>
+                <tspan x="889" y="732" font-family="ArialMT, Arial" font-weight="normal">Bite It! Bucks are valid on all ‘Just </tspan>
+                <tspan x="889" y="746" font-family="ArialMT, Arial" font-weight="normal">a Bite!’ smaller portion menu items.</tspan>
+            </text>
+            <rect id="Rectangle" stroke="#979797" fill="#D8D8D8" x="0.5" y="900.5" width="1439" height="123"></rect>
+            <text id="Home-Food-&amp;-Drink-En" font-family="ArialMT, Arial" font-size="11" font-weight="normal" fill="#000000">
+                <tspan x="260" y="924">Home</tspan>
+                <tspan x="260" y="936"></tspan>
+                <tspan x="260" y="948">Food &amp; Drink</tspan>
+                <tspan x="260" y="960"></tspan>
+                <tspan x="260" y="972">Entertainment</tspan>
+                <tspan x="260" y="984"></tspan>
+                <tspan x="260" y="996">Admission</tspan>
+                <tspan x="260" y="1008"></tspan>
+            </text>
+            <text id="Plan-Your-Bites!-Get" font-family="ArialMT, Arial" font-size="11" font-weight="normal" fill="#000000">
+                <tspan x="410" y="924">Plan Your Bites!</tspan>
+                <tspan x="410" y="936"></tspan>
+                <tspan x="410" y="948">Get in Touch!</tspan>
+                <tspan x="410" y="960"></tspan>
+                <tspan x="410" y="972">Get Involved!</tspan>
+                <tspan x="410" y="984"></tspan>
+                <tspan x="410" y="996">Sponsors</tspan>
+                <tspan x="410" y="1008"></tspan>
+            </text>
+            <text id="July-17-19,-2020-Sea" font-family="ArialMT, Arial" font-size="11" font-weight="normal" fill="#000000">
+                <tspan x="1098.66553" y="948">July 17-19, 2020</tspan>
+                <tspan x="1109.68164" y="960">Seattle Center</tspan>
+                <tspan x="1065.48828" y="972">FRI. &amp; SAT. 11am- 9pm</tspan>
+                <tspan x="1098.90186" y="984">SUN. 11am-8pm</tspan>
+            </text>
+            <rect id="Rectangle" fill="#9B9999" x="927" y="950" width="103" height="25"></rect>
+            <text id="Social-Media" font-family="ArialMT, Arial" font-size="10" font-weight="normal" fill="#000000">
+                <tspan x="950" y="966">Social Media</tspan>
+            </text>
+            <ellipse id="Oval-Copy-4" stroke="#979797" cx="434.5" cy="716.5" rx="24" ry="35"></ellipse>
+        </g>
+        <g id="Mobile" transform="translate(17.000000, 14.000000)">
+            <rect id="Rectangle" stroke="#979797" stroke-width="2" x="-1" y="-1" width="332" height="1148"></rect>
+            <g id="EXPERIENCE-BITE" transform="translate(9.000000, 295.000000)">
+                <rect id="Rectangle" fill="#D8D8D8" x="0" y="0" width="310" height="248"></rect>
+                <text id="+" font-family="ArialMT, Arial" font-size="20" font-weight="normal" fill="#000000">
+                    <tspan x="145" y="194">+</tspan>
+                </text>
+                <text id="EXPERIENCE-BITE!-TAS" font-family="ArialMT, Arial" font-size="16" font-weight="normal" fill="#000000">
+                    <tspan x="10" y="24">EXPERIENCE BITE! TASTING BUNDLE</tspan>
+                </text>
+                <g id="Bronze" transform="translate(10.000000, 38.000000)">
+                    <circle id="Oval" stroke="#979797" fill="#D8D8D8" cx="30" cy="30" r="29.5"></circle>
+                    <text id="Bronze-$37" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#000000">
+                        <tspan x="11.4892578" y="27">Bronze</tspan>
+                        <tspan x="20.4892578" y="41">$37</tspan>
+                    </text>
+                    <text id="5-meals-donated!" font-family="ArialMT, Arial" font-size="11" font-weight="normal" fill="#000000">
+                        <tspan x="11.2419434" y="75">5 meals</tspan>
+                        <tspan x="9.09082031" y="87">donated!</tspan>
+                    </text>
+                </g>
+                <g id="Silver" transform="translate(87.000000, 38.000000)">
+                    <circle id="Oval-Copy" stroke="#979797" fill="#D8D8D8" cx="30" cy="30" r="29.5"></circle>
+                    <text id="Silver-$40" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#000000">
+                        <tspan x="15.4970703" y="27">Silver</tspan>
+                        <tspan x="20.4892578" y="41">$40</tspan>
+                    </text>
+                    <text id="12-meals-donated!" font-family="ArialMT, Arial" font-size="11" font-weight="normal" fill="#000000">
+                        <tspan x="8.18310547" y="75">12 meals</tspan>
+                        <tspan x="9.09082031" y="87">donated!</tspan>
+                    </text>
+                </g>
+                <g id="Gold" transform="translate(163.000000, 38.000000)">
+                    <circle id="Oval-Copy-2" stroke="#979797" fill="#D8D8D8" cx="30" cy="30" r="29.5"></circle>
+                    <text id="Gold-$42" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#000000">
+                        <tspan x="17.3261719" y="27">Gold</tspan>
+                        <tspan x="19.9892578" y="41">$42</tspan>
+                    </text>
+                    <text id="20-meals-donated!" font-family="ArialMT, Arial" font-size="11" font-weight="normal" fill="#000000">
+                        <tspan x="8.18310547" y="75">20 meals</tspan>
+                        <tspan x="9.09082031" y="87">donated!</tspan>
+                    </text>
+                </g>
+                <g id="Plat" transform="translate(240.000000, 38.000000)">
+                    <circle id="Oval-Copy-3" stroke="#979797" fill="#D8D8D8" cx="30" cy="30" r="29.5"></circle>
+                    <text id="40-meals-donated!" font-family="ArialMT, Arial" font-size="11" font-weight="normal" fill="#000000">
+                        <tspan x="8.18310547" y="75">40 meals</tspan>
+                        <tspan x="9.09082031" y="87">donated!</tspan>
+                    </text>
+                    <text id="Platinum-$47" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#000000">
+                        <tspan x="7.15625" y="27">Platinum</tspan>
+                        <tspan x="20.4892578" y="41">$47</tspan>
+                    </text>
+                </g>
+                <text id="The-Alley-Tasting-6" font-family="Arial-BoldMT, Arial" font-size="12" font-weight="bold" fill="#000000">
+                    <tspan x="101.492188" y="156">The Alley Tasting</tspan>
+                    <tspan x="199.507812" y="156" font-family="ArialMT, Arial" font-weight="normal"> </tspan>
+                    <tspan x="35.2138672" y="170" font-family="ArialMT, Arial" font-weight="normal">6 Large Bites from 6 Top Local Restaurants</tspan>
+                </text>
+                <text id="Craft-Beer-&amp;-Cider-T" font-family="Arial-BoldMT, Arial" font-size="12" font-weight="bold" fill="#000000">
+                    <tspan x="60.0898438" y="212">Craft Beer &amp; Cider Tasting (21+) </tspan>
+                    <tspan x="244.244141" y="212" font-family="ArialMT, Arial" font-weight="normal"></tspan>
+                    <tspan x="41.4013672" y="226" font-family="ArialMT, Arial" font-weight="normal">Commemorative Tasting Glass + 6 Pours</tspan>
+                </text>
+            </g>
+            <g id="THE-ALLEY" transform="translate(9.000000, 561.000000)">
+                <rect id="Rectangle" fill="#D8D8D8" x="0" y="0" width="310" height="152"></rect>
+                <text id="THE-ALLEY-TASTING-CO" font-family="ArialMT, Arial" font-size="16" font-weight="normal" fill="#000000">
+                    <tspan x="40" y="23">THE ALLEY TASTING COURSE</tspan>
+                </text>
+                <g id="Bronze" transform="translate(10.000000, 49.000000)">
+                    <circle id="Oval" stroke="#979797" fill="#D8D8D8" cx="30" cy="30" r="29.5"></circle>
+                    <text id="Bronze-$37" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#000000">
+                        <tspan x="11.4892578" y="27">Bronze</tspan>
+                        <tspan x="20.4892578" y="41">$37</tspan>
+                    </text>
+                    <text id="5-meals-donated!" font-family="ArialMT, Arial" font-size="11" font-weight="normal" fill="#000000">
+                        <tspan x="11.2419434" y="75">5 meals</tspan>
+                        <tspan x="9.09082031" y="87">donated!</tspan>
+                    </text>
+                </g>
+                <g id="Silver" transform="translate(87.000000, 49.000000)">
+                    <circle id="Oval-Copy" stroke="#979797" fill="#D8D8D8" cx="30" cy="30" r="29.5"></circle>
+                    <text id="Silver-$40" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#000000">
+                        <tspan x="15.4970703" y="27">Silver</tspan>
+                        <tspan x="20.4892578" y="41">$40</tspan>
+                    </text>
+                    <text id="12-meals-donated!" font-family="ArialMT, Arial" font-size="11" font-weight="normal" fill="#000000">
+                        <tspan x="8.18310547" y="75">12 meals</tspan>
+                        <tspan x="9.09082031" y="87">donated!</tspan>
+                    </text>
+                </g>
+                <g id="Gold" transform="translate(163.000000, 49.000000)">
+                    <circle id="Oval-Copy-2" stroke="#979797" fill="#D8D8D8" cx="30" cy="30" r="29.5"></circle>
+                    <text id="Gold-$42" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#000000">
+                        <tspan x="17.3261719" y="27">Gold</tspan>
+                        <tspan x="19.9892578" y="41">$42</tspan>
+                    </text>
+                    <text id="20-meals-donated!" font-family="ArialMT, Arial" font-size="11" font-weight="normal" fill="#000000">
+                        <tspan x="8.18310547" y="75">20 meals</tspan>
+                        <tspan x="9.09082031" y="87">donated!</tspan>
+                    </text>
+                </g>
+                <g id="Plat" transform="translate(240.000000, 49.000000)">
+                    <circle id="Oval-Copy-3" stroke="#979797" fill="#D8D8D8" cx="30" cy="30" r="29.5"></circle>
+                    <text id="40-meals-donated!" font-family="ArialMT, Arial" font-size="11" font-weight="normal" fill="#000000">
+                        <tspan x="8.18310547" y="75">40 meals</tspan>
+                        <tspan x="9.09082031" y="87">donated!</tspan>
+                    </text>
+                    <text id="Platinum-$47" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#000000">
+                        <tspan x="7.15625" y="27">Platinum</tspan>
+                        <tspan x="20.4892578" y="41">$47</tspan>
+                    </text>
+                </g>
+                <text id="6-Large-Bites-from-6" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#000000">
+                    <tspan x="38.2138672" y="39">6 Large Bites from 6 Top Local Restaurants</tspan>
+                </text>
+            </g>
+            <rect id="Rectangle" fill="#D8D8D8" x="9" y="734" width="310" height="132"></rect>
+            <text id="BEER-+CIDER-TASTING" font-family="ArialMT, Arial" font-size="16" font-weight="normal" fill="#000000">
+                <tspan x="54" y="756">BEER +CIDER TASTING (21+)</tspan>
+            </text>
+            <text id="Commemorative-Tastin" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#000000">
+                <tspan x="127.416992" y="796">Commemorative Tasting Glass </tspan>
+                <tspan x="205.496094" y="810">+ </tspan>
+                <tspan x="130.302734" y="824">6 Pours from Local Breweries</tspan>
+            </text>
+            <g id="BITE-BUCKS" transform="translate(9.000000, 884.000000)">
+                <g id="Rectangle" transform="translate(0.218750, 0.000000)">
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <use id="Mask" fill="#D8D8D8" xlink:href="#path-3"></use>
+                </g>
+                <g id="Bucks-icon" transform="translate(32.000000, 49.000000)">
+                    <rect id="Rectangle" stroke="#979797" stroke-width="2" x="1" y="1" width="62" height="34"></rect>
+                    <text id="$B" font-family="ArialMT, Arial" font-size="20" font-weight="normal" fill="#979797">
+                        <tspan x="20.2685547" y="25">$B</tspan>
+                    </text>
+                </g>
+                <text id="$17-for-20-‘BITE-IT’" font-family="ArialMT, Arial" font-size="16" font-weight="normal" fill="#000000">
+                    <tspan x="57" y="27">$17 for 20 ‘BITE IT’ BUCKS</tspan>
+                </text>
+                <text id="As-good-as-cash!-Bit" font-family="ArialMT, Arial" font-size="12" font-weight="normal" fill="#000000">
+                    <tspan x="115" y="57">As good as cash!</tspan>
+                    <tspan x="115" y="71">Bite It! Bucks are valid on all ‘Just </tspan>
+                    <tspan x="115" y="85">a Bite!’ smaller portion menu items.</tspan>
+                </text>
+            </g>
+            <text id="Skip-the-Line-and-Sa" font-family="STHeitiSC-Medium, Heiti SC" font-size="20" font-weight="bold" fill="#000000">
+                <tspan x="54.39" y="148">Skip the Line and Save!</tspan>
+            </text>
+            <text id="While-General-Admiss" font-family="ArialMT, Arial" font-size="11" font-weight="normal" fill="#000000">
+                <tspan x="16" y="179">While General Admission is always free, the Bite also offers 4 </tspan>
+                <tspan x="16" y="191">admission packages for </tspan>
+                <tspan x="134.615234" y="191" font-family="Arial-BoldMT, Arial" font-weight="bold">discounted</tspan>
+                <tspan x="193.283691" y="191"> food and beverages.</tspan>
+                <tspan x="16" y="203"></tspan>
+                <tspan x="16" y="215">Choose your level of contirbution at checkout and provide </tspan>
+                <tspan x="16" y="227">meals to those in need through Seattle’s Food Lifeline charity.</tspan>
+                <tspan x="16" y="239"></tspan>
+                <tspan x="16" y="251">Additional full priced food and beverage items are available to </tspan>
+                <tspan x="16" y="263">purchase separately at the Bite!</tspan>
+            </text>
+            <g id="Banner/Top-Nav">
+                <rect id="Rectangle" stroke="#979797" fill="#D8D8D8" x="0.5" y="0.5" width="329" height="69"></rect>
+                <rect id="Rectangle" stroke="#979797" fill="#D8D8D8" x="256.5" y="70.5" width="73" height="39"></rect>
+                <text id="MAP" font-family="STHeitiSC-Medium, Heiti SC" font-size="20" font-weight="bold" fill="#000000">
+                    <tspan x="270.49" y="97">MAP</tspan>
+                </text>
+                <text id="BITE-OF-SEATTLE" font-family="STHeitiSC-Medium, Heiti SC" font-size="25" font-weight="bold" fill="#000000">
+                    <tspan x="74.5" y="46">BITE OF SEATTLE</tspan>
+                </text>
+                <g id="Hamburger" transform="translate(279.000000, 24.000000)" stroke="#979797" stroke-linecap="square">
+                    <line x1="0.5" y1="0.5" x2="41.5" y2="0.5" id="Line"></line>
+                    <line x1="0.5" y1="10.5" x2="41.5" y2="10.5" id="Line-Copy"></line>
+                    <line x1="0.5" y1="20.5" x2="41.5" y2="20.5" id="Line-Copy-2"></line>
+                </g>
+                <g id="Search" transform="translate(30.000000, 20.000000)" stroke="#979797">
+                    <circle id="Oval" fill="#D8D8D8" cx="10" cy="10" r="9.5"></circle>
+                    <line x1="26.5" y1="27.5" x2="17" y2="18" id="Line-2" stroke-linecap="square"></line>
+                </g>
+            </g>
+            <ellipse id="Oval" stroke="#979797" cx="79.5" cy="805.5" rx="24" ry="35"></ellipse>
+            <rect id="Rectangle" stroke="#979797" fill="#D8D8D8" x="0.5" y="1022.5" width="329" height="123"></rect>
+            <text id="Home-Food-&amp;-Drink-En" font-family="ArialMT, Arial" font-size="11" font-weight="normal" fill="#000000">
+                <tspan x="12" y="1046">Home</tspan>
+                <tspan x="12" y="1058"></tspan>
+                <tspan x="12" y="1070">Food &amp; Drink</tspan>
+                <tspan x="12" y="1082"></tspan>
+                <tspan x="12" y="1094">Entertainment</tspan>
+                <tspan x="12" y="1106"></tspan>
+                <tspan x="12" y="1118">Admission</tspan>
+                <tspan x="12" y="1130"></tspan>
+            </text>
+            <text id="Plan-Your-Bites!-Get" font-family="ArialMT, Arial" font-size="11" font-weight="normal" fill="#000000">
+                <tspan x="101" y="1046">Plan Your Bites!</tspan>
+                <tspan x="101" y="1058"></tspan>
+                <tspan x="101" y="1070">Get in Touch!</tspan>
+                <tspan x="101" y="1082"></tspan>
+                <tspan x="101" y="1094">Get Involved!</tspan>
+                <tspan x="101" y="1106"></tspan>
+                <tspan x="101" y="1118">Sponsors</tspan>
+                <tspan x="101" y="1130"></tspan>
+            </text>
+            <text id="July-17-19,-2020-Sea" font-family="ArialMT, Arial" font-size="11" font-weight="normal" fill="#000000">
+                <tspan x="236.665527" y="1048">July 17-19, 2020</tspan>
+                <tspan x="247.681641" y="1060">Seattle Center</tspan>
+                <tspan x="203.488281" y="1072">FRI. &amp; SAT. 11am- 9pm</tspan>
+                <tspan x="236.901855" y="1084">SUN. 11am-8pm</tspan>
+            </text>
+            <rect id="Rectangle" fill="#9B9999" x="215" y="1098" width="103" height="25"></rect>
+            <text id="Social-Media" font-family="ArialMT, Arial" font-size="10" font-weight="normal" fill="#000000">
+                <tspan x="238" y="1114">Social Media</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

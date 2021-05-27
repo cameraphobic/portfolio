@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="525px" height="352px" viewBox="0 0 525 352" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Artboard Copy</title>
+    <g id="Artboard-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile-Paragraph" transform="translate(1.000000, 176.000000)" fill="#000000" font-family="Helvetica" font-size="12" font-weight="normal">
+            <text id="Open-Sans/Regular/12">
+                <tspan x="0" y="92">Open Sans/Regular/12pt</tspan>
+            </text>
+            <text id="This-is-a-paragraph">
+                <tspan x="0" y="11">This is a paragraph for mobile. Lorem ipsum dolor sit amet, consectetur </tspan>
+                <tspan x="0" y="25">adipiscing elit. Ut mauris velit, facilisis nec congue nec, fermentum quis </tspan>
+                <tspan x="0" y="39">quam. In auctor et velit et cursus. Class aptent taciti sociosqu ad litora </tspan>
+                <tspan x="0" y="53">torquent per conubia nostra, per inceptos.</tspan>
+            </text>
+        </g>
+        <g id="Desktop-Paragraph" transform="translate(1.000000, 31.000000)" fill="#000000" font-family="Helvetica" font-weight="normal">
+            <text id="This-is-a-paragraph" font-size="14">
+                <tspan x="0" y="14">This is a paragraph for desktop. Lorem ipsum dolor sit amet, </tspan>
+                <tspan x="0" y="31">consectetur adipiscing elit. Ut mauris velit, facilisis nec </tspan>
+                <tspan x="0" y="48">congue nec, fermentum quis quam. In auctor et velit et </tspan>
+                <tspan x="0" y="65">cursus. Class aptent taciti sociosqu ad litora torquent per </tspan>
+                <tspan x="0" y="82">conubia nostra, per inceptos himenaeos.</tspan>
+            </text>
+            <text id="Open-Sans/Regular/14" font-size="12">
+                <tspan x="0" y="117">Open Sans/Regular/14pt</tspan>
+            </text>
+        </g>
+        <text id="This-is-small-text-f" font-family="OpenSans-Light, Open Sans" font-size="12" font-weight="300" fill="#000000">
+            <tspan x="0" y="316">This is small text for labels/footnotes      </tspan>
+            <tspan x="215.302734" y="316" font-family="Helvetica" font-weight="normal"> Open Sans/Light/12pt</tspan>
+        </text>
+    </g>
+</svg>

@@ -1,0 +1,734 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Responsive Website | Bite of Seattle | UX Case Study</title>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon.png">
+    <meta name="description" content="(Unsolicited) mobile responsive website for the 'Bite of Seattle' food festival.">
+    <meta name="keywords" content="UX, UI, design, designer, sprint, case study, concept, responsive, mobile, desktop, event, redesign, bite of seattle, festival">
+
+    <!-- Fonts -->
+    <link href="https://cdn.rawgit.com/h-ibaldo/Raleway_Fixed_Numerals/master/css/rawline.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://use.typekit.net/qkh0smq.css">
+
+
+    <!-- Social sharing-->
+    <meta property="og:title" content="UX Case Study | Responsive Website | Brittany Roberts">
+    <meta property="og:description" content="(Unsolicited) redesign for BOS's mobile responsive website.">
+    <meta property="og:image" content="minimum dimension of 1200×630, aspect ratio of 1.91:1, less than 1MB">
+    <meta property="og:url" content="http://brittanyroberts.design/work/case-study-bos"> <!-- Make sure this is accurate -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:site_name" content="Brittany Roberts | UX Designer + Visual Thinker | Seattle WA">
+    <meta name="twitter:image:alt" content="alt text for image">
+
+    <!-- Bootstrap CSS, emoji-css, My Styles, AOS CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- jQuery, Popper.js, Bootstrap JS, AOS.js, Clipboard.js, Instafeed.js, Font Awesome -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script>
+    <script src="https://kit.fontawesome.com/5c8828594f.js" crossorigin="anonymous"></script>
+  </head>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <div class="container">
+    <!-- NAV BAR -->  
+      <nav class="navbar navbar-custom navbar-expand-sm justify-content-end fixed-top" data-aos="fade-down">
+        <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" data-toggle="collapse" data-target=".navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav d-flex align-items-center">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html#work">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#about">About</a>
+          </li>
+        </ul>
+      </div>
+      </nav>
+    <!-- JUMBOTRON HEADER -->
+    <main class="clearfix"> 
+      <article>
+      <header>
+        <div class="row">
+          <div class="col-md-8 pr-md-4" data-aos="fade-right"> 
+            <img src="resources/images/case-study-images/bos/bos-jumbotron.jpg" srcst="" alt="Three smartphones showcase different app screens"class="img-fluid">
+        </div>
+          <div class="col-md-4 my-auto" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <h2>Project Brief</h2>
+            <p><a href="https://www.biteofseattle.com/" title="Seattle's Premier Food and Beverage Showcase" target="_blank">Bite of Seattle</a> needs a new online showcase for its 200+ food vendors and 3 days of live music. The site should look great across devices, and function flawlessly for mobile users as they wander the fair with munchies in hand. &#129384;</p>
+            <p>This (unsolicited) redesign of The Bite's responsive website was a student project for <a href="https://generalassemb.ly/education/user-experience-design-immersive/seattle" target="_blank" title="GA | User Experience Design Immersive">General Assembly</a> — I've continued to iterate on the visuals since graduating.</p>
+          </div> 
+        </div>
+        <div class="row" data-aos="fade-up">
+          <div class="col-sm-3 case-stats">
+            <h5>This is a...</h5>
+            <h2 class="text-center">Responsive Website Concept</h2>
+          </div>
+          <div class="col-sm-3 case-stats">
+            <h5>Timeframe</h5>
+            <h2 class="text-center">14 Days w/ Team<br> 5 (ish) Days Solo</h2>
+          </div>
+          <div class="col-sm-3 case-stats">
+            <h5>My Role</h5>
+            <h2 class="text-center">UX Research, Visual Design</h2>
+          </div>
+          <div class="col-sm-3 case-stats">
+            <h5>My Team</h5>
+            <h2 class="text-center"><a href="https://clariceastro.com/" target="_blank" title="Open Clarice's Portfolio">Clarice Astronimo</a><br> <a href="https://cheitkemper.com/" target="_blank" title="Open Chris's Portfolio">Chris Heitkemper</a></h2>
+          </div>
+        </div>
+      </header>
+      <section data-aos="fade-up">  
+        <div class="row mb-md-5">
+          <div class="col">
+            <h1 class="mb-md-2">Table of Contents</h1>
+            <div class="position-relative">
+            <h2 class="mb-0 position-inline"><a href="#usable" class="stretched-link">&#128173; Make it Usable — Mobile First Redesign</a></h2>
+            <p class="mb-md-5">My team completed a 2 week end-to-end UX design sprint to improve key features of The Bite's existing website.</p>
+            </div>
+            <div class="position-relative">
+            <h2 class="mb-0"><a href="#accessible" class="stretched-link">&#127912; Make it Accessible — Color & Type Revisited</a></h2>
+            <p class="mb-md-5">I revised my color palette and type system to improve the visual accessibilty of my team's original prototype.</p>
+            </div>
+            <div class="position-relative">
+            <h2 class="mb-0"><a href="#sustainable" class="stretched-link">&#129513; Make it Modular — Bite-Sized Styleguide</a></h2>
+            <p class="mb-md-5">As a skill-building challenge, I'm working a style guide for this project, including code snippets for responsive design components.  
+            </div> 
+          </div>
+        </div>
+      </section>
+      <section id="usable" data-aos="fade-up">
+        <div class="row mb-md-3">  
+          <div class="col">
+            <h1 class="mb-md-4">Make it Usable</h1>
+            <h2>First Impressions: A Homepage without Heirarchy</h2>
+            <p>My student team kicked off this project with a heuristic audit of The Bite's existing website, noting opportunities for improvement. 
+              The festival's online presence has grown organically over the years, and this is especially clear on their jampacked homepage.</p>
+          </div>
+        </div>
+        <figure class="mb-md-5">
+        <div class="row">
+          <div class="col-md-10 mx-auto">
+            <div class="scroll-desktop">
+              <img src="resources/images/case-study-images/bos/scroll-desktop.png" alt="Bite of Seattle's current homepage, desktop layout" class="img-fluid">
+            </div>
+          </div>
+        </div>
+        <figcaption>A snapshot of Bite of Seattle's hompage layout<span class="bold-type"> (scroll to view)</span></figcaption>
+        </figure>
+        <div class="row mb-md-5">
+          <div class="col">
+            <h2>Mystery Menu Items</h2>
+            <p>The Bite's information architecture was confusing to us, and the delineation between content categories was not entirely clear.
+              It was clear from the jump that <span class="highlighter">improving the navigation would be the backbone of our redesign.</span> 
+            </p>
+              <figure class="mb-md-3 mt-md-5">
+                <div class="row"> 
+                  <div class="col-md-8 mx-auto">
+                      <video width="100%" autoplay loop muted playsinline>
+                      <source src="resources/images/case-study-images/bos/bite-nav-vid.mp4" type="video/mp4"></source>
+                      Your browser does not support the HTML5 video tag.
+                      </video>
+                      <figcaption class="footnote">Ok, I'll bite — what's difference between 'specialty foods' and 'artisan foods'?</figcaption>
+                  </div>
+                </div>
+                </figure>   
+            <h2 class="pt-md-5">Visual Design #Goals</h2>
+            <p>During our team audit, I also set specific goals for myself to improve the site's usability by cleaning up the visual aesthetic:</p>
+            <ul>
+              <li><span class="bold-type">Reduce cognitive load:</span> The Bite's current site (especially the map) feels cluttered due to inconsistent styling of visual elements.</li>
+              <li><span class="bold-type">Introduce a type system:</span> Every other line of text is emphasized, which makes it difficult for visitors to scan for meaning.</li>
+              <li><span class="bold-type">Mind the grid:</span> Misaligned elements add to the sense of clutter and hurt readability — easily remedied with a grid system.</li>
+            </ul>
+          </div>  
+        </div>
+        <div class="row mb-md-5 pt-md-4 justify-content-center">
+          <div class="col-md-6 my-auto">
+            <figure>
+            <img src="resources/images/case-study-images/bos/text-sample.png" alt="" class="img-fluid">
+            <figcaption class="pt-md-3">I stopped counting after 6 different type styles</figcaption>
+            </figure>
+          </div>
+          <div class="col-md-6 my-auto">
+            <figure>
+            <img src="resources/images/case-study-images/bos/bos-map.jpg" alt="" class="img-fluid">
+            <figcaption class="pt-md-3">Readability is lost in the battle for ad space</figcaption>
+            </figure>
+          </div>
+        </div>
+        </section>
+        <section data-aos="fade-up">
+          <div class="row mb-md-5">
+            <div class="col-md-7 pt-md-1">
+              <h2>But First — Are We Solving the Right Problems?</h2>
+              <p>To gather data on the website/festival visitor experience, we conducted interviews with volunteers who had attended Bite of Seattle (or similar events) in the past year. 
+                Following a set of scripted questions,
+                we asked them to draw on memories (good and bad) of <span class="highlighter">online event discovery, planning a trip through the event website, and physically navigating the event space.</span></p>
+              <p>One problem was immediatly obvious — none of the folks who'd attended The Bite before were aware of their special admission packages.</p>
+            </div>
+            <div class="col-md-5">
+              <img class="img-fluid" src="resources/images/case-study-images/bos/interview-notes.jpg" alt="" srcset=""> <!-- Resize this image set -->
+              <p class="footnote">6 interviews, 10 questions, 30 minutes each</p>
+            </div> 
+          </div>
+          <div class="row mb-md-5">
+            <div class="col">
+              <h2>Turning Pain Points into Sweet Spots</h2>
+              <p>My team's first priority was to improve the UX of planning a trip through The Bite's website, but we also wanted to consider its potential usefulness navigating a busy fairground.
+                We synthesized our interview data as a team, with these goals in mind:</p>   
+              <ul>  
+                <li><span class="bold-type">Find low hanging fruit:</span> What are the lowest lift/highest impact improvements we can tackle during this design sprint?</li>
+                <li><span class="bold-type">Define business goals:</span> The Bite is an imaginary client — what do we imagine are their desired outcomes for the redesign?</li>
+              </ul>
+              <p>We uncovered the following four user experience categories to drive our redesign. 
+                Within each category, we hypothesized business objectives to benefit our 'client' Bite of Seattle.</p>  
+            </div>
+          </div>
+          <div class="row pt-md-4">
+            <div class="col-md-6 px-md-4">
+              <div class="row pb-2 under-line mx-auto">
+                <div class="col px-0 d-inline-flex align-items-end">
+                  <h5 class="my-0 py-0">Special Admission Packages</h5>
+                </div>
+                <div class="col-1 px-0 py-0">
+                  <img src="resources/images/case-study-images/bos/bite-bucks-icon.svg" class="img-fluid" alt="">
+                </div>
+              </div>
+              <div class="row mt-4">
+                <div class="col">  
+                  <p>The Bite offers tiered admission packages for discounted food/drinks, which also benefit Seattle's <a href="https://foodlifeline.org" target="_blank" title="Food Lifeline | Hunger Doesn't Have to Happen">Food Lifeline</a> charity. 
+                    <span class="highlighter">Visitors are missing out on special packages because the details are convoluted/buried in the site navigation.</span></p>
+                  <ul class="no-style">
+                    <li><span class="bold-type">User need:</span> Food/drink discounts, support a local charity</li>
+                    <li><span class="bold-type">Business goal:</span> Increase ticket sales/contributions to charity</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 px-md-4">
+              <div class="row pb-2 under-line mx-auto">
+                <div class="col px-0 d-inline-flex align-items-end">
+                  <h5 class="my-0 py-0">IA & Taxonomy</h5>
+                </div>
+                <div class="col-1 px-0 py-0">
+                  <img src="resources/images/case-study-images/bos/map-icon.svg" class="img-fluid" alt="">
+                </div>
+              </div>
+              <div class="row mt-4">
+                <div class="col">  
+                  <p>Sections of The Bite's current site have mysterious and/or overly specific names. The difference between site categories is blurry.</p>
+                  <ul class="no-style">
+                    <li><span class="bold-type">User need:</span> Answers to their questions regarding food menus, music schedules, parking... you name it</li>
+                    <li><span class="bold-type">Business goal:</span> Decrease bounce rates when users are unable to find the information they need quickly</li>
+                  </ul>
+                </div>
+              </div>
+          </div>
+          <div class="row mt-md-5">
+            <div class="col-md-6 px-md-4">
+              <div class="row pb-2 under-line mx-auto">
+                <div class="col px-0 d-inline-flex align-items-end">
+                  <h5 class="my-0 py-0">Social Media Integration</h5>
+                </div>
+                <div class="col-1 px-0 py-0">
+                  <img src="resources/images/case-study-images/bos/instagram-icon.svg" class="img-fluid" alt="">
+                </div>
+              </div>
+              <div class="row mt-4">
+                <div class="col">  
+                  <p><span class="highlighter">We were surprised/encouraged by the prevalence of social media as a research tool for visitors.</span>
+                    Lacking real analytics, we made some assumptions as to how increaseing social media integration might benefit The Bite.</p>
+                  <ul class="no-style">
+                    <li><span class="bold-type">User need:</span> Look up participating restaurants and local bands before deciding to attend</li>
+                    <li><span class="bold-type">Business goal:</span> Increase word-of-mouth discovery, entice high caliber vendors by providing grassroots advertising</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 px-md-4">
+              <div class="row pb-2 under-line mx-auto">
+                <div class="col px-0 d-inline-flex align-items-end">
+                  <h5 class="my-0 py-0">On-Site Navigation</h5>
+                </div>
+                <div class="col-1 px-0 py-0">
+                  <img src="resources/images/case-study-images/bos/you-are-here-icon.svg" class="img-fluid">
+                </div>
+              </div>
+              <div class="row mt-4">
+                <div class="col">  
+                  <p><span class="highlighter">A number of our volunteers admitted that they don't like using paper maps, and instead follow the crowd.</span> 
+                    A digital map on the mobile site could help visitors make informed descisions and (hopefully) reduce fairground congestion.</p>
+                  <ul class="no-style">
+                    <li><span class="bold-type">User need:</span> A convenient alternative to the 'herd mentality'</li>
+                    <li><span class="bold-type">Business goal:</span> Increase sponsors’, vendors’, and performers’ profitability by dispersing crowds</li>
+                  </ul>
+                </div>
+              </div>
+          </div>   
+        </section>
+        <section data-aos="fade-up">
+          <div class="row pt-md-5 mb-md-4">
+            <div class="col">
+              <h2>The Bite is Unique — Calendars, Filters & Maps are Not</h2>
+              <p>My team conducted a competitive analysis on other festivals/food service websites, taking note of established patterns we might use to improve the site's content organization and UX design.</p>
+            </div>
+          </div>
+          <div class="row mb-md-5">
+            <div class="col-sm-4 px-4">
+              <h5 class="mb-2 pb-2 under-line">Live Music</h2>
+              <p><a href="https://udistrictstreetfair.org" target="_blank" title="Celebrate NW Culture & Community">U District Street Fair</a> | 
+              <a href="https://www.aclfestival.com" target="_blank" title="Austin City Limits Music Festival">ACL</a></p>
+              <img class="img-fluid mt-md-3" src="resources/images/case-study-images/bos/acl-lineup.jpg" alt="Lineup poster laid out into 3 columns, artists sorted by date">
+              <p class="footnote">ACL performance lineup</p>  
+              <p>Festival websites typically display performance schedules by day, because <span class="highlighter">people purchase tickets based on the date — not where they'll be standing.</span>
+              <p class="mb-md-4">The Bite's entertainment section is currently grouped by location, with separate webpages for each stage.</p>
+            </div>
+            <div class="col-sm-4 px-4">
+              <h5 class="mb-2 pb-2 under-line">Food Filters</h2>
+              <p><a href="https://pikeplacemarket.org" target="_blank" title="Pike Place: where Seattle shops, eats, and meets">Pike Place Market</a> | 
+              <a href="https://www.ubereats.com" target="_blank" title="Hungry?">Uber Eats</a></p>
+              <img class="img-fluid mt-md-3" src="resources/images/case-study-images/bos/doordash-filters.png" alt="A group of illustrated icons for different cuisines">
+              <p class="footnote">Search filters on Doordash</p>
+              <p><span class="highlighter">People choose what to eat by asking themselves questions.</span> What am I in the mood for? What's available? What time of day is it? 
+                <span class="highlighter">Search filters that align with those questions are intuitive to use.</span></p>
+            </div>
+            <div class="col-sm-4 px-4">
+              <h5 class="mb-2 pb-2 under-line">Fairground Maps</h2>
+              <p><a href="https://www.bonnaroo.com" target="_blank" title="Bonnaroo Music & Arts Festival">Bonnaroo</a> | 
+                <a href="https://www.aclfestival.com" target="_blank" title="Austin City Limits Music Festival">ACL</a> |
+                <a href="https://www.onereel.org/bumbershoot" target="_blank" title="Seattle's Champion Music & Arts Festival">Bumbershoot</a></p>
+                <img class="img-fluid mt-md-3" src="resources/images/case-study-images/bos/bonnaroo-map.png" alt="Colorful/stylized map of Bonnaroo's camp grounds">
+                <p class="footnote">Bonnaroo music festival map</p>   
+              <p>Proximity, scale, and absolute distance are missing from fairground maps, because people WHAT WHAT WHAT.</p>
+              <h5 class="mb-md-2 mt-md-4">Visual Themes</h5>
+              <ul class="mb-md-5">
+                <li><span class="bold-type">Abstraction over accuracy</span></li>
+                <li><span class="bold-type">Color-coded categories</span></li>
+                <li><span class="bold-type">Larger-than-life symbols to mark utilities and landmarks</span></li>
+              </ul> 
+            </div>
+          </div>
+        </section>
+        <section data-aos="fade-up">
+        <div class="row mb-md-3">
+          <div class="col">
+            <h2>Our Team Workflow — Converge & Commit, Divide & Design</h2>
+            <!--<p>We each took ownership over separate sections of the site for redesign. 
+              Chris and Clarice handled the live music schedules and food filters, respectively, and focused their efforts on content organization/incorporating social media. 
+              I took point on the special admissions page, map, and visual design.</p>-->
+          </div>
+        </div>   
+        <div class="row mb-md-4">
+          <div class="col-md-6">
+            <img class="img-fluid" src="resources/images/case-study-images/bos/team-sketch-crop.jpg" alt="" srcset="">
+            <p class="footnote">Zoom fatigue can't stop the creativity &#10024;</p>
+          </div>
+          <div class="col-md-6 pt-md-4">
+            <h5>Design Studio</h5>
+            <p>Before we split up to create wireframes, 
+              <span class="highlighter">my team conducted a rapid sketch session to ideate/gain consensus on the homepage layout and global elements.</span>
+              We each quickly brainstormed a handful of screens, then voted to merge the most successful elements of each sketch into final layouts.
+            </p>
+          </div>
+        </div>  
+        <div class="row mb-md-5 pt-md-4">
+          <div class="col-md-6">
+            <img class="img-fluid" src="resources/images/case-study-images/bos/mood-board.png" alt="" srcset=""> <!-- Resize image set -->
+            <p class="footnote">Unsplash<a href="#" data-toggle="modal" data-target="#unsplashModal"> Photo Credits</a></p>
+          </div>
+          <div class="col-md-6 mt-md-5 mb-md-4">
+            <h5>Mood Board</h5>
+            <p><span class="highlighter">I invited my teammates to collaborate on a moodboard to align our vision for The Bite's new look.</span>
+              The exercise was great for teambuilding, and I've used this board as a north star for visual design descisions throughout the project.</span>
+            </p>
+          </div>
+        </div>
+        <div class="row mb-md-5">
+          <div class="col-md-6">
+            <figure>
+            <video width="100%" autoplay loop muted playsinline>
+            <source src="resources/images/case-study-images/bos/card-sort.mp4" type="video/mp4"></source>
+            Your browser does not support the HTML5 video tag.
+            </video>
+            <figcaption class="footnote">Participants determined their own groups for The Bite's webpages</figcaption>
+            </figure>
+          </div>
+          <div class="col-md-6 pl-md-3 pt-md-4">
+            <h5>Open Card Sort</h5>
+            <p><span class="highlighter">Our information architect, Clarice, organized an open card sort to determine more intuitive top level navigation.</span> 
+              She invited us all to join the exercise, plus 5 volunteers, for a total of 8 participants.
+              We synthesized the card sort results as a team, and Clarice created a site map for our working prototype.</p>
+          </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8 mx-auto">
+          <figure>
+            <a href="#" data-toggle="modal" data-target="#site-mapModal"><img src="resources/images/case-study-images/bos/bos-site-map-sm.jpg" alt="" class="img-fluid w-75 offset-md-1 mt-md-3"></a>
+          <figcaption>Credit: Clarice Astronimo <span class="bold-type">(click to expand)</span></figcaption> 
+          </figure>
+        </div>
+      </div>  
+      </section>
+      <section data-aos="fade-up">
+        <div class="row mb-md-5">
+          <div class="col">
+            <h2>Local Color = Always on Brand</h2>
+            <p>SHORTEN THIS UP.
+              Seattle has a (well deserved) reputation for rainy skies most of the year but — believe it or not — our summers are stunning.
+              Since The Bite is an outdoor summer festival, I pulled together a color pallete of bright primaries and sunny pastels.
+              I named each shade after city landmarks and surrounding geography, for a seasonal color story specific to Seattle.</p>
+            <img class="img-fluid px-md-5 mb-3" src="resources/images/case-study-images/bos/color-story.png" alt="">
+            <p class="footnote">Unsplash<a href="#" data-toggle="modal" data-target="#unsplashModal2"> Photo Credits</a></p>
+          </div>
+        </div>
+        </section>
+        <section data-aos="fade-up">
+        <div class="row mb-md-3">
+          <div class="col">   
+            <h2>Retro-Futurist Type Studies</h2>
+            <p>Chris proposed <a href="https://typodermicfonts.com/" target="_blank" title="Source: Raymond Larabie, Typodermic Fonts">Mexcellent</a> as a playful display font for headers — reminiscent of the Space Needle's debut at the 1962 World's Fair.
+              I was jazzed about the trilinear font's layering capabilities (but would later scrap my 'colorpop' headers due to accessibility issues...).
+              I tempered Mexcellent with <a href="https://fonts.google.com/specimen/Open+Sans?preview.text_type=custom" target="_blank" title="Open Sans on Google Fonts">Open Sans</a> for body text — a typeface specifically designed for legibility across print, web, and mobile interfaces.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <img class="img-fluid" src="resources/images/case-study-images/bos/type-stack1.svg" alt="">
+          </div>
+          <div class="col-md-6">
+            <img class="img-fluid" src="resources/images/case-study-images/bos/type-stack2.svg" alt="">
+          </div>
+        </div>
+      </section>
+      <section data-aos="fade-up"> 
+        <div class="row">
+          <div class="col">
+            <h2>Imagine... a Better Map</h2>
+            <p>According to our interview data, some folks <span class="italic">really</span> dislike paper maps — finding them wasteful, cumbersome, and easily misplaced.
+              To improve The Bite's on-site experience, my team designed a digital map with a suite of interactive features for the mobile site. 
+              <span class="highlighter">This map is environmentally friendly, pocket-sized, and unlikely to be misplaced.</span></p>
+            <p>&#10024; Clarice (IA) was the mastermind behind this dynamic map concept and QR scanning/pinning features. 
+               As the visual designer, I worked closely with her to bring the concept to life by creating animated mockups.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4 case-stats">
+              <img class="img-fluid px-md-5 mb-md-5" src="resources/images/case-study-images/bos/you-are-here-opt.gif" loading="lazy" alt="">
+              <h5 class="mb-2 pb-2">'You Are Here'</h5>
+              <p>Guests can quickly get their bearings as they wander Seattle Center by scanning QR codes posted at each booth. The Bite would provide QR signage to festival vendors during the registration process.</p>
+          </div>
+          <div class="col-sm-4 case-stats">
+              <img class="img-fluid px-md-5 mb-md-5" src="resources/images/case-study-images/bos/my-pins-opt.gif" loading="lazy" alt="">
+              <h5 class="mb-2 pb-2">Pinned Attractions</h5>
+              <p>Guests who prefer to plan ahead can "pin" specific vendors to check out on event day. Pins can be shown/hidden by toggling the tab in the upper right, and the full list pins can be accessed from the key drawer.</p>
+          </div>
+          <div class="col-sm-4 case-stats">
+              <img class="img-fluid px-md-5 mb-md-5" src="resources/images/case-study-images/bos/key-drawer-opt.gif" loading="lazy" alt="">
+              <h5 class="mb-2 pb-2">Key Drawer & Gestures</h5>
+              <p>To preserve space, the mobile map's legend and index are hidden off-screen in a bottom drawer. The map itself is a large image area that can be traversed with familiar gestures: pinch to zoom, swipe to scroll.</p>
+          </div>
+        </div>
+        </section>
+        <section data-aos="fade-up">
+          <div class="row">
+            <div class="col">
+              <h2>They're Here, They're Clear — Special Admissions Packages</h2>
+              <p>Confession time — I attend Bite of Seattle almost every year, but was not aware of their special admissions packages before this project.
+                The first challenge was getting them prominently in the navigation (done, IA), the second challenge was making the page digestible.
+              </p>
+              <h5>Determining Breakpoints</h5>
+              <p>Write about breakpoints for the responsive layout. Grid of 6, grid of 4, single column.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <img class="img-fluid" src="resources/images/case-study-images/bos/reading-pattern.png" alt="">
+              <p class="footnote">Sketches of admissions pages + a little key of of the grid in sketchbook too</p>
+            </div>
+            <div class="col-md-6">
+              <img class="img-fluid" src="resources/images/case-study-images/bos/wireframes.svg" alt="">
+              <p class="footnote">Wireframes of admissions pages</p>
+            </div>  
+          </div>
+          <div class="row mb-md-5">
+            <div class="col">     
+                <h5>I think it makes more sense to talk about Icons & Imagery here</h5>
+                <p>This also naturally led me into curating our icon library, taking requests from the team. 
+                  Talk about how important it is for an icon set to be cohesive. Talk about how icons/imagery can convey subtle meaning, to support the "story." 
+                  Talk about how you modeled the admissions page after a coupon tear sheet.</p>
+                <p>Talk about directing the eye with this layout. Make something like the screenshot above.</p>
+                <h5>How did I test my page design?</h5>
+                <p>Timed tests — assigned testers to answer questions to test comprehension.</p>  
+            </div>
+          </div>
+          <div class="row mx-auto">
+            <div class="col-md-6">
+              <img class="img-fluid" src="resources/images/case-study-images/bos/admission-grid.svg" alt="">
+              <p class="footnote">I styled the grid after a coupon tearsheet — it's a metaphor! &#10024;</p>
+            </div>
+            <div class="col-md-6 my-auto pl-md-5">
+              <img class="img-fluid" src="resources/images/case-study-images/bos/icon-library.svg" alt="">
+              <p class="footnote">Icon inventory - barely scratched the surface</p>
+            </div>
+          </div>
+        </section>
+        <section data-aos="fade-up">
+        <h1>Prototype V1</h1>
+        <div class="row">
+          <div class="col-md-10 d-flex mx-auto embed-responsive embed-responsive-16by9 prototype">
+            <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/419464881"></iframe>
+          </div>
+        </div>
+        </section>
+        <section data-aos="fade-up">
+          <div class="row">
+            <div class="col">
+              <h2>Closing Thoughts</h2>
+              <p>Talk about stellar teamwork, prioritization, and involving non-owners in the early stages of our process to acheive consensus and appreciation for the work.</p>
+              <h5>Next Steps & Learning Goals</h5>
+              <ul>
+                <li><p><span class="bold-type">Validate the visual design: </span>During our last design critique for this project, I got <span class="italic">called</span> <span class="bold-type">OUT</span> for the lack of color contrast.
+                (Thank you Kiki!) It made me realize that visual design decisions can/need to be tested for usability just like anything else!
+                In the next section of this case study, I'll devise ways to test my visuals, and iterate on them, with the goal of acheiving accessiblity.</p>
+                <p><span class="bold-type highlighter">TL;DR Drive-by aesthetic improvement is not enough</span></p></li>
+                <!--<li><p><span class="bold-type">Collect Analytics:</span> We identified four areas for improvement (admissions, IA, social media, the map), and were able to validate our design for two of them: Admissions and IA.
+                  Social media would require real site analytics.</p>  
+                </li> DON'T LOVE THIS BULLET POINT. I DON'T REFERENCE BACK TO IT LATER. -->
+                <li><p><span class="bold-type">Technical Feasability:</span> While the QR scanning feature seems pretty straightforward (it's essentially linking to coordinates on the map - a large image file), 
+                  we would likely need to to build some kind of login experience for the "pinned attractions" feature to work.
+                  I simply don't have the programmatic knowledge to estimate the cost of building this, so my gut tells me we'd need chat with the dev team before getting too invested in the feature.</p></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section id="accessible" data-aos="fade-up">
+        <div class="row">
+          <div class="col">
+            <h1>Make it Accessible</h1>
+            <p>Talk about how this came up as a point in the FINAL presentation/critique. I immediatly wrote it down to research and correct, after the project was over.</p> 
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <h2>Contrast Tests</h2>
+            <p>Call out specific areas of the first draft where contrast is a problem (either low contrast, or bad colorblind combos). Make a color picker graphic like the Seattle color story?</p>
+            <p>Call out areas where color is the ONLY visual indicator of a change.</p>
+            <p>If applicable - solve a contrast problem by introducing different textures, or drop shadows. (Looking at you, flat icons)</p>
+            <p>INSERT SIDE BY SIDE USE ALL 5 GRIDS</p>
+            <h5>Bye Bye, Beige</h5>
+            <p>Talk about web safe colors</p>
+            <p>INSERT UPDATED STYLE TILE (TEXT AND COLORS)</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <h2>The Ice Cream Test</h2>
+            <p>Talk about situational impairments and using the site one handed (because of food and/or kids), and in direct sunlight. 
+              This is a FIELD TEST to assess glare. I learned more with this than contrast checkers.</p>
+              <p>Also the size of tap targets - are they doable even with shaking hands/low motor ability?</p>
+              <img src="resources/images/case-study-images/bos/phone-placeholder.png" class="img-fluid" alt="">
+            <p>INSERT SIDE BY SIDE FIGURE OF MELTING ICE CREAM CONES - I like the composition of this shot</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <h2>Compliance ≠ Acessibility</h2>
+            <p>This is all very visual, because I'm thinking like a visual designer. But what about non-sighted users? Compliance and Acessibility - they're not the same thing. For example - I fixed my color contrast and font sizes, but that alone does nothing to improve the site for vision-impaired users plan their trip to The Bite.</p>
+            <h5>Thoughtful Markup</h5>
+            <p>Revisit typography style tile - we fixed the colors/sizes, what about semantics? The ascending numbers don't just affect the sizes, they affect the readability of the DOM for screen readers. (IS THIS TRUE? NOW I'M NOT SURE)</p>
+            <h5>Alt Text for UGC</h5>
+            <p>How might I handle the IG photos...?</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <h2>Closing Thoughts</h2>
+            <p>Feedback is a gift. Expound on that, and thank the designer who called you out. Feedback is a gift, and this feedback sent me on a journey to become a better designer. I embarked on self-learning web accessibility.</p>
+            <p>I also revisited the original ask: deisgn a responsive website, and realized that this doesn't cut it. It's not elastic.
+              My mistake I think was that I made a style tile, and then rushed right from wireframes to comps. I made a series of rigid pages - not modular compnenets - so this desing is NOT truly responsive (yet).</p>
+            <h5>Next Steps</h5>
+            <ul>
+              <li><p><span class="bold-type">The joy of constraints:</span> I'll never not factor in accessibility at the start of my process again — what an expensive oversight, going back to change everything.
+              This made me realize that accessibility wasn't the only constraint I hadn't considered — I also wasn't thinking about technical/platform constraints of what's possible to build.</p></li>
+              <li><p><span class="bold-type">We need a system for this:</span> Make a style guide of replicable components - kick the habit of thinking in terms of pages!
+                As I went back through the Sketch files, I realized I didn't do a very good job keeping the visual design CONSISTENT.</p></li>
+              <li><p><span class="bold-type">Unitless measurements:</span> Diving deeper into responsive design, I learned that I would need to get comfy with SVG's, rems, ems, and percentages.</p></li>  
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="sustainable" data-aos="fade-up">
+        <div class="row">
+          <div class="col">
+            <h1>Make it Modular</h1>
+            <h2>Front-End Style Guide: <span class="italic">In Progress</span></h2>
+            <p>(Having fun, learning lots. Check back soon!)</p>
+            <!--<p>I can't prove this, but I suspect that The Bite's current website got so out of hand because it grew organically over many years, with new sections getting slapped on when events were added.
+              This presents ANOTHER CLIENT PROBLEM TO SOLVE, as the visual designer - provide a guide at hand off to keep things consistent as the site grows.</p>
+            <p>I won't be The Bite's web designer forever (I never was actually, they didn't hire me, this is a speculative project).</p>
+            <p>I didn't make a pattern library during our team design, just a symobl library in Sketch and a bunch of static pages. Not modular, not responsive, not reusable. 
+              I decided I wanted to code UI patterns myself, so I could have code snippets in my style guide. USE THE W3C CHECKER!</p>
+            <h2>Pattern Library</h2>
+            <h5>Cards</h5>
+            <h5>Carousels</h5>
+            <h5>Filters</h5>-->
+          </div>
+        </div>
+      </section>
+      <!--<section data-aos="fade-up">
+        <div class="row">
+          <div class="col">
+            <h2>Closing Thoughts</h2>
+            <p>This project became a real sandbox! It was supposed to be a project to learn responsive design, but I learned that and so much more! 
+              It learned not only to optimize my designs for different devices, but to optimize my designs for different people. COMMITMENT TO UNIVERSAL DESIGN.</p>
+            <h5>Next Steps & Life Lessons</h5>
+            <ul>
+              <li>Design within Constraints: Bake it into my process, it's not an afterthought. Look how I had to go back and change everything later, just cause I didn't consider accessibility!</li>
+              <li>Design within technical constraints: Become a better designer by getting my hands dirty. Understand how it will be built, and do everything I can to prep the workspace for developers. Repeatable patterns are fast & efficient!</li>
+              <li>Design for the unexpected! Design with real content. It became clear to me that in these patterns, we did not consider overflow behavior. 
+                Most of the content this site needs to hold is generated by vendors (restaurant names, band names, menu items, photos). 
+                As designers we have no control over the length of content, but what we can do is plan for it to overflow gracefully.</li>
+            </ul>
+          </div> 
+        </div>     
+      </section>-->   
+      </article>
+    </main>   
+    <footer class="mt-md-0">
+      <div class="row case-footer d-flex justify-content-around">
+        <div class="col-sm-2 case-stats order-2 order-md-1">
+          <h5>Up Next</h5>
+          <h2 class="text-center"><a href="case-study-farechild.html" title="Mobile Ticketing Application">Farechild</a></h2>
+        </div>
+        <div class="col-sm-2 case-stats order-1 order-md-2">
+          <p class="all-caps"><a href="#">Back to Top</a></p>
+        </div> 
+        <div class="col-sm-2 grey-out grey-stats order-3">
+          <h5 class="grey-out">Coming Soon</h5>
+          <h2 class="grey-out text-center">Panda Lab</h2>
+        </div>  
+      </div>
+      <div class="row d-flex justify-content-between squeeze">
+        <div class="col-md-3 cats">
+          <img src="resources/images/rocket-side-small.png" id="rocket" title="Rocket" class="img-fluid" alt="Small calico cat, lying next to housplants" srcset="resources/images/rocket-side.png, resources/images/rocket-side-large.png" data-placement="bottom" data-aos="fade-right">
+        </div>
+        <div class="col-md-3 cats">
+          <img src="resources/images/bud-side-small.png" id="bud" title="Bud" class="img-fluid" alt="Fluffy black cat, lying next to houseplants" srcset="resources/images/bud-side.png, resources/images/bud-side-large.png" data-placement="bottom" data-aos="fade-left">
+        </div>
+      </div>
+      <div id="floor" class="row"></div>  
+    </footer> 
+    </div>
+    <script> 
+
+    //ANIMATE ON SCROLL
+
+      AOS.init({
+        duration: 1300
+      });
+    
+    //CLIPBOARD.JS
+
+    var clipboard = new ClipboardJS('.btn');
+
+    $('#click-to-copy').tooltip({title: "Click to copy", trigger: 'hover focus'});
+
+    $('#bud').tooltip({title: "Bud", trigger: 'hover focus'});
+    $('#rocket').tooltip({title: "Rocket", trigger: 'hover focus'});
+
+    clipboard.on('success', function(e) {
+      $('#click-to-copy').tooltip('dispose').tooltip({
+        title: "Copied!",
+        trigger: "click",
+      }).tooltip('show');
+    });
+
+    $(document).on('show.bs.tooltip', function (e) {
+      setTimeout(function() {
+        $('#click-to-copy').tooltip('hide');
+      }, 4000);
+    });
+  
+  
+    </script>
+  </body>
+  
+  <!--MODALS-->
+
+  <!-- Site Map Modal -->
+  <div class="modal fade" id="site-mapModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+      <div class="modal-content rounded-0">
+        <div class="modal-header border-0">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true"><i class="fas fa-times"></i></span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img class="img-fluid" src="resources/images/case-study-images/bos/bos-site-map.jpg">
+        </div>
+      </div>
+    </div>
+  </div> 
+
+<!-- Unsplash Modal 1 -->
+  <div class="modal fade" id="unsplashModal" tabindex="-1" role="dialog" aria-labelledby="unsplashModalPhotoCredits" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title pl-2" id="unsplashModalPhotoCredits">Photo Credits</h2>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true"><i class="fas fa-times"></i></span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <ul class="no-style pt-2">
+            <li><i class="fas fa-camera-retro photo-cred"></i><a href="https://unsplash.com/@max_anderson" target="_blank">Max Anderson</a></li>
+            <li><i class="fas fa-camera-retro photo-cred"></i><a href="https://unsplash.com/@vincefleming" target="_blank">Vince Fleming</a></li>
+            <li><i class="fas fa-camera-retro photo-cred"></i><a href="https://unsplash.com/@punttim" target="_blank">Tim Gouw</a></li>
+            <li><i class="fas fa-camera-retro photo-cred"></i><a href="https://unsplash.com/@micheile" target="_blank">Micheile Henderson</a></li>
+            <li><i class="fas fa-camera-retro photo-cred"></i><a href="https://unsplash.com/@hannahmorgan7" target="_blank">Hannah Morgan</a></li>
+            <li><i class="fas fa-camera-retro photo-cred"></i><a href="https://unsplash.com/@dropthelabelmovement" target="_blank">Drop the Label Movement</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Unsplash Modal 2 -->
+<div class="modal fade" id="unsplashModal2" tabindex="-1" role="dialog" aria-labelledby="unsplashModalPhotoCredits2" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title pl-2" id="unsplashModalPhotoCredits2">Photo Credits</h2>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><i class="fas fa-times"></i></span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <ul class="no-style pt-2">
+          <li><i class="fas fa-camera-retro photo-cred"></i><a href="https://unsplash.com/@athunterjd17" target="_blank">Hunter Desmarais</a></li>
+          <li><i class="fas fa-camera-retro photo-cred"></i><a href="https://unsplash.com/@ishaankansal12" target="_blank">Ishaan Kansal</a></li>
+          <li><i class="fas fa-camera-retro photo-cred"></i><a href="https://unsplash.com/@christianwalker" target="_blank">Christian Walker</a></li>
+          <li><i class="fas fa-camera-retro photo-cred"></i><a href="https://unsplash.com/@doctortinieblas" target="_blank">Benjamin Massello</a></li>
+          <li><i class="fas fa-camera-retro photo-cred"></i><a href="https://unsplash.com/@annakristinastoffel" target="_blank">Anna Stoffel</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+</html>

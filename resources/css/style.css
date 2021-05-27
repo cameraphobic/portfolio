@@ -133,6 +133,7 @@ h2 {
     font-family: adelle, serif;
     font-size: 1.6rem;
     font-weight: 300;
+    line-height: 2rem;
     padding-bottom: .6rem;
 }
 
@@ -183,7 +184,13 @@ h5 {
 
 .fa-camera-retro {
     padding: 0.8rem 0.8rem;
-    transform: rotate(90deg)
+    transform: rotate(90deg);
+}
+
+.photo-cred {
+    padding: 0.8rem 0.8rem;
+    margin-left: 0.8rem;
+    transform: none;
 }
 
 p {
@@ -203,12 +210,18 @@ li {
     margin-bottom: 1rem;
 }
 
+.no-style {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
 a {
-    color: #FA4E4D;
+    color: #FF4258;
 }
 
 a:hover {
-    color: #FA4E4D;
+    color: #FF4258;
     text-decoration: underline solid black;
 }
 
@@ -219,7 +232,12 @@ a:hover {
 .italic {
     font-style: italic;
     margin-right: .1rem;
-    font-weight: 600;
+    font-weight: 500;
+}
+
+.italic-lite {
+    font-style: italic;
+    margin-right: .1rem;
 }
 
 .all-caps {
@@ -256,16 +274,6 @@ figcaption {
     color: grey;
 }
 
-.video-footnote {
-    font-size: 1rem;
-    font-family: raleway, sans-serif;
-    font-style: italic;
-    text-align: center;
-    margin-top: 55%;
-    color: grey;
-}
-/* Note to self: fix the footnote class to display properly under videos*/
-
 @media only screen and (min-width: 1200px) {
     span.white-out {
       color: white;
@@ -273,7 +281,7 @@ figcaption {
     div.overlap h1 {
         position: absolute;
         z-index: 2;
-        padding-top: 2%;
+        padding-top: 1.8%;
     }
     
     div.overlap img {
@@ -316,7 +324,7 @@ figcaption {
 }
 
 .navbar-custom .nav-item .active {
-    color: #FA4E4D;
+    color: #FF4258;
 }
 
 .custom-toggler .navbar-toggler-icon {
@@ -343,10 +351,6 @@ header {
     padding-top: 15%;
 } 
 
-.prototype {
-    margin-bottom: 10%;
-}
-
 .case-title {
     margin: 0;
     padding: 0;
@@ -364,6 +368,10 @@ header {
     line-height: 2.2rem;
 }
 
+.case-stats h5 {
+    margin-bottom: 0.3rem;
+}
+
 .grey-stats {
     margin: 2% 0 4% 0;
     padding: 2rem;
@@ -376,6 +384,10 @@ header {
     line-height: 2.2rem;
 }
 
+.grey-stats h5 {
+    margin-bottom: 0.3rem;
+}
+
 .case-stats .all-caps {
     margin-bottom: 0;
     padding-bottom: 0;
@@ -384,14 +396,56 @@ header {
     text-transform: uppercase;
 }
 
+.under-line {
+    border-bottom: solid 1px black;
+}
+
 .highlighter {
     font-weight: 500;
-    background: linear-gradient(104deg, rgba(255, 255, 0, 0) 0.9%, rgba(255, 255, 0, 1.25) 2.4%, rgba(255, 255, 0, 0.5) 5.8%, rgba(255, 255, 0, 0.1) 93%, rgba(255, 255, 0, 0.7) 96%, rgba(255, 255, 0, 0) 98%), linear-gradient(183deg, rgba(255, 255, 0,0) 0%, rgba(255, 255, 0, 0.3) 7.9%, rgba(255, 255, 0, 0) 15%);
+    background: linear-gradient(104deg, rgba(255, 255, 0, 0) 0%, rgba(255, 255, 0, 1.25) -2%, rgba(255, 255, 0, 0.5) 20%, rgba(255, 255, 0, 0.1) 90%, rgba(255, 255, 0, 0.7) 100%, rgba(255, 255, 0, 0) 98%), linear-gradient(183deg, rgba(255, 255, 0,0) 0%, rgba(255, 255, 0, 0.3) 8%, rgba(255, 255, 0, 0) 30%);
     padding: 0;
     -webkit-box-decoration-break: clone;
     margin: 0;
-    text-shadow: -12px 12px 9.8px rgba(255, 255, 0, 1), 21px -18.1px 7.3px rgba(255, 255, 255,1), -18.1px -27.3px 30px rgba(255, 255, 255,1);
-    }
+    text-shadow: -8px 8px 5px rgba(255, 255, 0, 1);
+}
+
+.scroll-desktop {
+    padding: .5rem;
+    height: 530px;
+    overflow: scroll;
+}
+
+.scroll-mobile {
+    padding: .5rem;
+    height: 530px;
+    overflow: scroll;
+}
+
+.scroll-type {
+    padding: .5rem;
+    height: 250px;
+    overflow: scroll;
+}
+    
+/****** INSERT MEDIA QUERY TO MAKE VIEWPANES SHORTER FOR MOBILE *****/
+
+    div::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+    
+    div::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+    
+    div::-webkit-scrollbar-thumb {
+    background: lightgrey;  
+    border-radius: 10px;
+}
+    
+    div::-webkit-scrollbar-thumb:hover {
+    background: lightgrey;  
+}
 
 /* MODAL STYLING */
 
@@ -556,28 +610,28 @@ header {
 /* EMAIL BUTTON */
 
 #click-to-copy {
-    color: #FA4E4D;
+    color: #FF4258;
     font-size: 1.1rem;
     font-weight: 700;
     letter-spacing: 0.05rem;
-    border: none;
-    padding: 0;
+    /*border: none;*/
+    /*padding: 0;*/
 }
 
 #click-to-copy:hover {
-    color: #FA4E4D;
+    color: #FF4258;
     text-decoration: underline solid black;
 }
 
 /* FOOTER ELEMENTS */
 
 footer {
-    height: 100vh;
     width: 100vw;
     position: absolute;
     left: 0;
     right: 0;
     padding: 0;
+    margin-top: 10%;
 }
 
 .case-footer {
@@ -586,7 +640,7 @@ footer {
 
 
 .be-social {
-    margin: 10% auto 0 auto;
+    margin: 0 auto 0 auto;
     text-align: center;
 }
 
@@ -625,9 +679,7 @@ div.col-md-3.cats {
 }
 
 .cats img {
-    position: relative;
     z-index: 2;
-    justify-content: space-between;
 }
 
 #floor {
@@ -646,7 +698,7 @@ footer i {
 }
 
 footer i:hover {
-    color:#FA4E4D;
+    color:#FF4258;
 }
 
 @media only screen and (max-width: 1024px) {

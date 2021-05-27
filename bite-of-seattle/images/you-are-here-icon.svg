@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="110px" height="110px" viewBox="0 0 110 110" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>You Are Here</title>
+    <g id="You-Are-Here" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="location" transform="translate(3.000000, 5.000000)" fill="#FF0101">
+            <path d="M33,0 C107.25,0 33,81 33,81 C33,81 -41.25,0 33,0 Z M33,15.4285714 C27.6395892,15.4285714 23.2941176,19.7458256 23.2941176,25.0714286 C23.2941176,30.3970315 27.6395892,34.7142857 33,34.7142857 C38.3604108,34.7142857 42.7058824,30.3970315 42.7058824,25.0714286 C42.7058824,19.7458256 38.3604108,15.4285714 33,15.4285714 Z" id="Combined-Shape"></path>
+        </g>
+        <g id="Pin-Icon" transform="translate(98.000000, 95.000000) rotate(-360.000000) translate(-98.000000, -95.000000) translate(90.000000, 80.000000)">
+            <polygon id="Rectangle-7" fill="#000000" points="7 16 9 16.0294674 9 29.9705326 7 30"></polygon>
+            <circle id="Oval" fill="#FF0000" cx="8" cy="8" r="8"></circle>
+        </g>
+        <g id="Pin-Icon-Copy" transform="translate(66.000000, 95.000000) rotate(-360.000000) translate(-66.000000, -95.000000) translate(58.000000, 80.000000)">
+            <polygon id="Rectangle-7" fill="#000000" points="7 16 9 16.0294674 9 29.9705326 7 30"></polygon>
+            <circle id="Oval" fill="#FF0000" cx="8" cy="8" r="8"></circle>
+        </g>
+        <g id="Pin-Icon-Copy-2" transform="translate(82.000000, 68.000000) rotate(-360.000000) translate(-82.000000, -68.000000) translate(74.000000, 53.000000)">
+            <polygon id="Rectangle-7" fill="#000000" points="7 16 9 16.0294674 9 29.9705326 7 30"></polygon>
+            <circle id="Oval" fill="#FF0000" cx="8" cy="8" r="8"></circle>
+        </g>
+    </g>
+</svg>
