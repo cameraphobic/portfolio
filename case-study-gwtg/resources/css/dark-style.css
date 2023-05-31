@@ -1,0 +1,63 @@
+
+body {
+    background-color: rgb(22, 22, 22);
+}
+
+.dark-text-10 {
+    color: lightgray !important;
+}
+
+.dark-text-20 {
+    color: grey !important;
+}
+
+.dark-link {
+    color: lightgray !important;
+}
+
+/* NAVBAR */
+
+.navbar {
+    background: linear-gradient(rgb(22, 22, 22), 70%, rgba(255, 255, 255, 0)) !important;
+}
+
+.navbar ul {
+    font-family: 'Lexend', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.navbar li {
+    margin: 0;
+}
+
+.navbar-custom-dark .nav-item a {
+    color: lightgray;
+}
+
+.navbar-custom .nav-item a:hover {
+    text-decoration: underline;
+    border-bottom: none;
+}
+
+.navbar-custom-dark .nav-item .active {
+    color: #FF4258;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url( 
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");        
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.collapse {
+    padding: 1rem 0;
+    background: rgba(22, 22, 22, 0.5) !important;
+}
