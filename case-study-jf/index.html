@@ -77,7 +77,7 @@
         <header>
           <div class="row mb-3 justify-content-center">
             <div class="col col-sm-10">
-              <p class="meta-data lexend-300">5 min read · <a class="text-link" href="" target="_blank">PDF</a></p>
+              <p class="meta-data lexend-300">5 min read</p>
               <h1 class="big-vanilla-header pb-3">Amazon Chime Mobile</h1>
                 <h2 class="small-vanilla-header">Meeting join flow redesign · UX team of 2
                   <br>AWS · Fall 2021-Spring 2022
@@ -108,151 +108,187 @@
             <!-- start content column -->
             <div class="col col-sm-10">
               <h2 class="eyebrow-header">Background</h2>
-              <p class="mb-5">In 2021 the Amazon Chime design team completed a full redesign of our desktop and web clients with a fresh new UI, consolidated codebase, and sweeping accessibility improvements for users. Mobile clients followed shortly after, with general release in October 2022 [link to app store].
+              <p class="mb-5">In 2021 the Amazon Chime team completed a full redesign of our desktop and web clients to refresh UI, consolidate the codebase, and make sweeping accessibility improvements. 
+                Our mobile client redesign followed shortly after, with high level objectives to lean into native mobile patterns and make it easy for users to multitask while participating fully in meetings.
               </p>
               
               <!-- incoming call screen annotated mockup -->
-              <img src="resources/images/ux-specs.png" class="img-fluid" alt="">
-              <p class="meta-data">Before after - reduced steps and refined UI - explain the image</p>
+              <h2 class="eyebrow-header">My role</h2>
+              <p>Improve the UX for joining meetings on a mobile device, and update UI to match Chime's new desktop app appearance</p>
 
-              <img src="resources/images/before-after-ui.png" class="img-fluid" alt="">
-              <p class="meta-data">Before after - reduced steps and refined UI - explain the image</p>
+              <h2 class="eyebrow-header mt-5">Final design</h2>
+              <img src="resources/images/ux-specs.png" class="img-fluid mt-2" alt="">
+              <img src="resources/images/before-after-ui.png" class="img-fluid mt-3 pb-5" alt="">
               
-              <h3 class="small-vanilla-header lexend-200 mt-5">The WHY</h3>
-              <!-- desktop green room screen shot -->
-              <img src="resources/images/green-room.png" class="img-fluid" alt="">
-              <p class="meta-data">My part in this initiative was to match the desktop app’s new and improved UX for joining meetings — a preview modal with options to configure audio and video settings.</p>
-              <p class="mt-4">
-                In addition to camera/microphone checks, the desktop “green room” modal provides a liminal space for meeting participants to fix their hair and gather their thoughts before dropping in.
-                This moment would require special consideration for mobile users — how might we lower friction AND match the confidence they feel joining a meeting from their desk at home?
-              </p>
+              <h2 class="eyebrow-header mt-5">Design Process</h2>
+              <!-- desktop green room -->
+              <h3 class="small-vanilla-header lexend-200 mt-4">Review the new desktop experience — users click through a preview modal nicknamed the “green room”</h3>
+              <img src="resources/images/green-room.png" class="img-fluid mt-4" alt="">
+              <p class="meta-data">The green room is a moment of zen to check your device settings, fix your hair, and gather your thoughts before dropping in</p>
+              <p class="mt-4 pb-5">This moment would require special consideration for mobile users — how might we streamline device setting selection and match the confidence users feel joining meetings from their desk at home?</p>
 
-              <h3 class="eyebrow-header">What do we know about mobile users? [clickbait headline/visual aside]</h3>
-              <p>Behavioral metrics:</p>
-              <ul>
-                <li>Less than x% of mobile participants turn on video during mobile meetings [check navreen's keynote], indicating video is not a strong usecase on mobile</li>
-                <li>Significant percentage of mobile users join with dial in (x%), and anecdotally we know mobile dial in is a solid backup option for desktop users experiencing wifi issues</li>
-              </ul>
-              <p>Safe assumptions:</p>
-              <ul>
-                <li>Likely multitasking (walking, driving, caring for children)</li>
-                <li>Likely in a noisy environment (outdoors, at the grocery store, on public transit)</li>
-                <li>Likely distracted by all of the above (see also: running late for their meeting)</li>
-              </ul>
+              <!-- what we know about users -->
+              <h3 class="small-vanilla-header lexend-200 mt-5">Analyze metrics and context of use</h3>
+              <div class="row pb-5">
+                <div class="col mr-2">
+                  <p class="mt-4"><strong>Mobile users, in general</strong></p>
+                    <p class="meta-data lexend-200">Likely to be multitasking (walking, driving, caring for children)</p>
+                    <p class="meta-data lexend-200">Likely in a noisy environment (outdoors, at the grocery store, on public transit)</p>
+                    <p class="meta-data lexend-200">Likely to be distracted by all of the above (see also: running late for their next meeting)</p>
+                </div>
+                <div class="col ml-2">
+                  <p class="mt-4"><strong>Mobile users on our platform</strong></p>
+                    <p class="meta-data lexend-200">Less than 8% of Chime users turn on their camera during mobile meetings, indicating video is not a strong use case for this flow</p>
+                    <p class="meta-data lexend-400 mt-4">With this data in mind, product and design made an early decision to keep video OFF by default when users first join</p>
+                </div>
+              </div>
 
               <!-- Current CX flow shot -->
-              <h2 class="small-vanilla-header">Opportunities for improvement</h2>
-              <img src="resources/images/cx-flows.png" class="img-fluid" alt="">
-              <p class="meta-data"> screenshot audit of the current user experience revealed several opportunities for improvement across existing paths to join a call [circle/label the ones we scoped for]</p>
+              <h3 class="small-vanilla-header lexend-200 mt-5">Pick the busiest intersection — where can we lower friction and reduce cognitive load?</h3>
+              <img src="resources/images/cx-flows.png" class="img-fluid mt-4" alt="">
+              <p class="meta-data">I used iOS and Android screenshots to map the current UX and produced a flowchart to facilitate stakeholder discussions</p>
 
-              <p>Opportunities for improvement:</p>
-              <ul>
-                <li>Match in-meeting audio settings (currently missing was the option to join a call muted)</li>
-                <li>Reduce taps/consolidate audio options on two screens</li>
-                <li>Improve button hierarchy and information density</li>
-                <li>Consistent experience across Android and iOS platforms, parity with desktop client</li>
-              </ul>
+              <p>All paths to join a meeting cross at the incoming call screen(s). My team aligned on this high impact juncture for UX improvements, scoping the work to fit into project timelines.</p>
+              <h3 class="eyebrow-header mt-5 mb-3">Design opportunities</h3>
+                <p>• Match in-meeting audio settings for parity with desktop client</p>
+                <p>• Reduce taps/consolidate audio options on two screens</p>
+                <p>• Improve button hierarchy and information density</p>
+                <p class="pb-5">• Improve consistency across Android and iOS platforms</p>
 
-              <h3 class="small-vanilla-header lexend-200 mt-5">The HOW</h3>
-              <!-- Sketches in Sketch -->
-              <img src="resources/images/ideation.png" class="img-fluid" alt="">
-              <p class="meta-data">Before we moved to usability there was ideation. Important to show ability to problem solve through exploration before homing in on one assumption.</p>
-              <p>After swarming on screen layouts, we arrived at 2 contenders for design direction [circle/label them]: a basic button layout derived from the desktop modal experience, and a “swipe-to-answer” interaction to leverage a mobile first pattern and introduce delight
-                Show specifics about how you worked cross functionally, and how you managed those expectations with usability as a tool.
-              </p>
-
-              <p>Stakeholder concerns to validate:</p>
-              <ol>
-                <li>Do we really need to support the “join without audio” use case on this screen, or is adding clutter?</li>
-                <li>Is a swipe-to-answer gesture accessible and user friendly, or is it over the top?</li>
-              </ol>
-
-              <h3 class="small-vanilla-header">Usability and metrics to answer questions</h3>
-              <!-- A/B prototypes -->
-              <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FCKFyDlyNBsuHG7uIzoBy51%2FMobile-5.x-Join-Flow-Prototypes%3Ftype%3Ddesign%26node-id%3D19-18385%26scaling%3Dscale-down%26page-id%3D16%253A17257%26starting-point-node-id%3D19%253A18385" allowfullscreen></iframe>
-              <p class="meta-data">For the usability study, I prototyped a realistic incoming call notification to illicit genuine reactions from testers. (Ideally we’d want to test this on a mobile device, but due to covid protocols at the time had to approximate the experience in a browser.)</p>
 
               <!-- Sketches in Sketch -->
-              <img src="resources/images/a-b-mocks.png" class="img-fluid" alt="">
-              <p class="meta-data">Caption for image</p>
-              <p>Learning objectives:</p>
-              <ul>
-                <li>Which screen layout is most understandable at a glance?</li>
-                <li>Which button layout is perceived as lower friction?</li>
-                <li>Which design do testers prefer overall?</li>
-              </ul>
-              <p>Method:</p>
-              <ul>
-                <li>Semi structured interview on mobile meeting habits</li>
-                <li>Prototype task completion, think out loud protocol</li>
-                <li>Side-by-side feedback on A/B static mockups</li>
-              </ul>
-              <p>Usability recruitment criteria:</p>
-              <ul>
-                <li>3-5 Chime mobile users, must take meetings on mobile at least 1x weekly</li>
-                <li>Even split of iOS and Android users</li>
-                <li>Mix of technical and non-technical roles</li>
-              </ul>
-              <p class="lexend-300">Findings:</p>
-              <ul>
-                <li>3/4 participants preferred prototype A overall</li>
-                <li>4/4 participants preferred prototype B's title placement</li>
-                <li>Neutral on the slider</li>
-              </ul>
+              <h3 class="small-vanilla-header lexend-200 mt-5">Place your bets — basic buttons, or a pattern with some personality?</h3>
+              <img src="resources/images/ideation.png" class="img-fluid mt-5" alt="">
+              <p class="meta-data">My teammate and I selected two ideas to present for cross-team feedback: a "swipe to answer" slider (left) and a button based layout (right)</p>
+              
+              <p class="mt-5">
+                At this phase, product leadership was moving in a bold new direction with the redesign. 
+                The in-meeting experience would feature a <a class="text-link" href="https://apps.apple.com/us/app/clubhouse/id1503133294">Clubhouse</a> inspired layout with pixel art animal avatars for attendees. 
+              </p>
+              <p class="mt-4">A slider to join meetings would be in step with the creative vision, giving mobile-first whimsy, but some on the team thought it was over the top.
+              </p>
+              <h3 class="eyebrow-header mt-5 mb-3">Stakeholder concerns</h3>
+                <p class=""><strong>1.</strong> Do we need to include a "join without audio" setting?</p>
+                <p class="pb-5"><strong>2.</strong> Is the “swipe-to-answer” gesture accessible and user friendly?</p>
 
-              <!-- Final -->
-              <img src="resources/images/final-mocks.png" class="img-fluid" alt="">
-              <p class="meta-data">This project went through a rigorous audit to address accessibility deal breakers prior to launch.</p>
+              <!-- A/B mockups and test bullets-->
+              <h3 class="small-vanilla-header lexend-200 mt-5">Test with users — 2 prototypes, 4 Amazon employees, 50/50 iOS and Android owners</h3>
+              <h4 class="eyebrow-header mt-5">Learning objectives</h4>
+                <p class="mt-4">• Which screen layout is most understandable at a glance?</p>
+                <p>• Which button layout is perceived as lower friction?</p>
+                <p>• Which design do testers prefer overall?</p>
+              <h4 class="eyebrow-header mt-5">Research methods</h4>
+                <p class="mt-4">• Semi structured interview to learn about mobile meeting habits</p>
+                <p>• Task success rate (join a meeting), think out loud protocol</p>
+                <p>• Feedback on static mockups, side-by-side A/B comparison</p>
 
-              <h3 class="eyebrow-header">Usage metrics: [clickbait headline/visual aside]</h3>
-              <p>4% of mobile users join without audio, roughly 850k users per month. This confirmed that we would need to support a “join with audio” use case. 
-                [Give two example scenarios — EA needs to monitor a call, sharing an audio source in a conference room (a.k.a “conference room mode”)… I can’t for the life of me remember the details. Go back and watch L&L recording.]
+              <img src="resources/images/a-b-mocks.png" class="img-fluid" alt="">  
+
+              <h4 class="eyebrow-header mt-5 mb-3">Key findings</h4> 
+              <h4 class="small-vanilla-header lexend-200 mt-4">Takeaway 1</h4>
+                <p class="">3/4 testers preferred prototype A’s logical layout — they found it easy to compare audio settings and see which one is currently selected</p>
+              <h4 class="small-vanilla-header lexend-200 mt-4">Takeaway 2</h4>
+                <p class="pb-5">4/4 testers preferred prototype B’s title placement — they liked keeping meeting information (title, organizer) separate from interactions</p> 
+          
+
+              <h3 class="eyebrow-header mt-5">Unanswered questions</h3>
+              <!-- Metrics and use cases -->
+              <h4 class="small-vanilla-header lexend-200 mt-4 mb-3">4% of mobile app users join without audio (~850k per month) — but why?</h4>
+              <p>Testers correctly guessed what “join without audio” meant, but none had ever used the setting themselves. 
+                Chime’s Senior TPM supplied two use cases that are likely behind the above metrics:
+              </p>
+              <p class="mt-4"><strong>Hybrid remote meeting etiquette</strong><br>
+                Multiple users sharing a conference room often need to join from personal devices to ensure everybody’s name appears on the roster — without triggering screechy audio feedback.
+              </p>
+              <p><strong>C suite security measures</strong><br>
+                Executive Assistants at Amazon often need to monitor meeting attendance — without overhearing classified conversations themselves.
+              </p>
+              <p class="mt-4 pb-5"><strong>Conclusion: Keep “join without audio” option to support these use cases</strong></p>
+
+              <!-- A11y and engineer effort -->
+              <h4 class="small-vanilla-header lexend-200 mt-4 mb-3">Testers were ambivalent about the slider — now what?</h4>
+              <p>With no clear signal that a swipe to answer made or broke the UX, 
+                I consulted with subject matter experts on Amazon’s internal accessibility team and Chime mobile engineers:
+              </p>
+              <p><strong>Is the slider accessible? Technically yes</strong><br>
+                Swipe interactions alone are not accessible for people who navigate with a keyboard or gesture based screen reader. 
+                However, engineers could program each side of the slider component to surface as a focusable region (right = answer, left = decline)… much like buttons.
+              </p>
+              <p><strong>Is the slider frugal? Technically no</strong><br>
+                Through a series of feedback sessions, it became clear that building a custom component would put engineers at risk of missing their deadline. 
+                Buttons are more straightforward to implement, and could be styled quickly to match the new visual design.
+              </p>
+              <p class="mt-4 pb-5"><strong>Conclusion: Pivot to native button components for answer/decline</strong></p>
+
+              <!-- Final mocks -->
+              <h3 class="eyebrow-header mt-5">Final iteration</h3>
+              <img src="resources/images/final-mocks.png" class="img-fluid mt-3" alt="">
+              <p class="meta-data pb-5">My final mockups combined the best of both prototypes, and leveraged platform specific components to lower engineering lift</p>
+
+
+              <!-- Survey bar charts -->
+              <h3 class="eyebrow-header mt-5">Project outcomes</h3>
+              <h3 class="small-vanilla-header lexend-200 mt-4">Survey of 540 mobile beta testers — confirmed hits for redesign objectives, clear direction for continued improvement</h3>
+
+              <h4 class="eyebrow-header mt-5">Learning objectives</h4>
+                <p class="mt-4">• Capture high level feedback on joining meetings from a mobile device</p>
+                <p>• Measure sentiment on the new join flow experience compared to the old one</p>
+              <h4 class="eyebrow-header mt-5">Survey design</h4>
+                <p class="mt-4">• 7 questions using a Likert scale to gauge perceived ease of use joining meetings</p>
+                <p>• 2 freeform questions to ask what respondents liked best about the experience and what they would change
+                  about the experience</p>
+                
+              <img src="resources/images/survey-data.png" class="img-fluid mt-4" alt="">
+              <p class="meta-data pb-5">I circled back to the project objectives with PM and engineer counterparts to draft a set of questions, then fielded the post-launch acceptance survey</p>
+
+              <h4 class="eyebrow-header mt-3">Key findings</h4>
+              <p class="mt-4">
+                <strong>Majority prefer the new beta experience to the old one (91%)
+              </p>
+              <p>Majority feel it takes very little effort to join meetings (91%)</p>
+              <p>Majority feel certain of their microphone status prior to meetings (75%)</p>  
+              <p class="mt-5">
+                <strong>There was ambivalence around perceived ease of use for picking an audio setting.</strong><br>
+                This could be due to survey question phrasing, or it could point to an opportunity for further improvement:
+              </p>
+              <p class="">54% feel it is <strong>not</strong> difficult to pick their preferred audio setting prior to join</p>
+              <p class="">23% neither agree nor disagree that it is difficult</p>
+              <p class="">23% feel it is difficult to pick their preferred audio setting prior to join</p>
+
+              <p class="mt-5 pb-5">
+                <strong>Highest comment count for “favorite part” of the new experience was ease of use (69 mentions)</strong><br>
+                Next highest was the ability to see/set mute status prior to joining (34 mentions). 
+                Highest counts for “one thing I’d change” were the ability to select a bluetooth device before joining (4 mentions) and ability to see who has already joined the meeting (4 mentions).
               </p>
 
-              <p class="lexend-300">Accessibility SME review: [clickbait headline/small image]</p>
-              <p>A slider component may have some value for sighted users who are on the go/concerned about accidentally answering a call in their pocket. But for users who don’t navigate visually and/or don’t use the touch screen, a better experience would be focusable buttons. 
-                Programmatically, we could provide both by turning the slider background into tappable regions.
+              <!-- Accessibility layout and audit screenshots -->
+              <h3 class="small-vanilla-header lexend-200 mt-5">Raising the accessibility bar — type scaling and text labels were big wins for this release</h3>
+              <p class="mt-4">
+                My team passed Amazon's strict internal accessibility audit by ensuring every corner of the app was navigable for people who rely on assistive tech.
+              <p>
+              <p class="pb-5">
+                I owned post-audit bug triage, and partnered with mobile engineers to test and implement fixes screen by screen.  
+                We dove deep into best practices per platform, and documented everything we found along the way into a single source of truth for design and engineering.
+              </p>  
+                <img src="resources/images/a11y-sizes.png" class="img-fluid" alt="">
+              <p class="meta-data pb-5">I researched latest <a class="text-link" href="https://www.w3.org/" target="_blank" title="">W3C</a> guidance for large text scaling and made a simple table to adapt our existing type system. Engineer teammates helped me determine logical breakpoints and stress tested the overflow behavior in device emulators before creating reference mockups.</p>
+
+              <!-- Photos of phones side by side -->
+              <h3 class="small-vanilla-header lexend-200 mt-5 mb-3">Self reflection</h3>
+              <p>This was my first shipped feature at Amazon! It was also my first collaboration with this cross functional team. Ambiguity was high. 
+                I learned (through trial, error, and observation) how to best keep teammates involved in design decisions.
               </p>
-
-              <p class="lexend-300">Stakeholder input (final decision): [click bait headline/small image]</p>
-              <p>Through a series of feedback sessions with stakeholders, it became clear that building a custom slider component would put engineers at risk of missing their deadline. 
-                Native button components would be straightforward to implement, and could be styled quickly to match the new visual design.
+              <h4 class="eyebrow-header mt-5 mb-3">Nuggets of wisdom</h4>
+              <p>• Usability is good for more than design validation — it's also a valuable tool for addressing stakeholder concerns and driving alignment</p>
+              <p>• When usage data and user anecdotes differ, interview stakeholders — seek out experts in customer problems to bring clarity and authority to the conversation</p>
+              <p>• "The fidelity of the design should match the fidelity of the idea" (not my quote) — 
+                working through foundational problems in sketches and spreadsheets can be a tough sell for stakeholders who are expecting mockups, 
+                but I've since learned on other projects that it's worth starting slow so to avoid rework at the end
               </p>
-
-              <h3 class="small-vanilla-header lexend-200 mt-5">The SO WHAT</h3>
-
-               <!-- High impact charts and graphs -->
-               <img src="resources/images/survey-data.png" class="img-fluid" alt="">
-               <p class="meta-data">Majority of respondents prefer the new experience, majority of respondents feel it takes very little effort to join, majority of respondents feel certain of microphone setting</p>
-
-               <p>Post launch acceptance survey gathered 540 + responses from mobile beta app user group. [Expand the FINAL ACT with post mortem stuff. What came out of the survey, what came out of launch, highlight the big accessibility improvements.]</p>
-
-               <p class="lexend-300">Next steps: [clickbait headline]</p>
-               <p>Implement dark mode designs — organized with iOS and Android engineers to get this done incrementally, spring 2023.
-                Revisit “first run” sign up experience — captured as part of the initial screenshot audit, along with comments/opportunities for improvement, but not in project scope. Currently in product backlog.
-               </p>
- 
-               <h3 class="small-vanilla-header">Accessibility audit and stress testing the designs</h3>
-
-               <!-- Accessibility layout and audit screenshots -->
-               <img src="resources/images/a11y-sizes.png" class="img-fluid" alt="">
-               <p class="meta-data">Examples of scrappy documentation created in collab with dev in order to pass a11y audit. This became foundational resources the team still builds on/uses today.</p>
-               
-               <p class="lexend-300">Accessibility audit: [clickbait headline]</p>
-               <p>Design's responsibility to "shift left" for an accessible user experience. (CTA to the reader) This project went through a rigorous audit to address accessibility deal breakers prior to launch. 
-                Describe how you decided to approach, working with design teammates to prioritize and dev to stress test.
-                Given more time, we also would have tested the design directly with members of the PWD community to make sure our improvements are usable as well as compliant.
-               </p>
-
-               <h3 class="small-vanilla-header">Learnings and retrospective</h3>
-               <!-- Photos of phones side by side -->
-               <img src="../resources/images/join-thumb.png" class="img-fluid" alt="">
-               <p class="meta-data">This was my first cross functional shipped feature, what a cool feeling!</p>
-
-               <p class="lexend-300">Reflections: [click bait headline]</p>
-               <p>First cross functional project ever. Power of collaborative doc writing (document as you go). 
-                I learned how to start and grow various project docs with engineer and product partners as a shared source of truth and space for asynchronous problem solving.
-               </p>
+              <video class="img-fluid mt-5" controls>
+                <source src="resources/images/side-by-side.mp4" type="video/mp4">
+              </video>
+              <p class="meta-data">Mobile join flow before (left) and after (right). As a unified communications platform designer, I spend a lot of time in meetings with myself. &#128133;</p>
             </div>
           </div>    
       </article> 
@@ -283,7 +319,7 @@
             <div class="card-title">
               <a href="#" class="thumb-link">
                 <img src="../resources/images/pt-thumb.png" class="img-fluid" alt="" srcset="../resources/images/pt-thumb.png, ../resources/images/pt-thumb.png">
-                <h3 class="eyebrow-header mt-4">Amazon Chime</h3>
+                <h3 class="eyebrow-header mt-4">coming soon &#128272;</h3>
                 <p class="meta-data mt-2">Directory integration helping ~1 million coworkers put a face to a name</p>
               </a>
             </div>
