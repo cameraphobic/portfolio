@@ -78,7 +78,7 @@ main {
     padding-top: 10%;
     padding-left: 20%;
     margin: auto auto;
-    width: 100vw;
+    /*width: 100vw;*/
 }
 
 @media(max-width: 768px){
@@ -715,7 +715,7 @@ header {
 /* FOOTER ELEMENTS */
 
 footer {
-    width: 100vw;
+    /*width: 100vw;*/
     position: absolute;
     overflow-x: clip;
     left: 0;
