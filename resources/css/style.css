@@ -71,7 +71,7 @@ main {
 #home {
     padding: 8% 2% 0 0;
     scroll-snap-align: center;
-    /*width: 100vw;*/
+    width: 100vw;
 }
 
 #about {
@@ -717,6 +717,7 @@ header {
 footer {
     width: 100vw;
     position: absolute;
+    overflow-x: clip;
     left: 0;
     right: 0;
     padding: 0;
