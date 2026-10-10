@@ -71,7 +71,7 @@ main {
 #home {
     padding: 8% 2% 0 0;
     scroll-snap-align: center;
-    width: 100vw;
+    /*width: 100vw;*/
 }
 
 #about {
