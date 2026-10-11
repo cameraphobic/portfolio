@@ -785,9 +785,9 @@ header {
 
 .password-btn:hover,
 .password-btn:focus {
-    color: #222222;
-    background-color: pink;
-    border-color: #222222;
+    color: #fff;
+    background-color: #FF4258;
+    border-color: #FF4258;
     box-shadow: none;
 }
 
