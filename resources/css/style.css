@@ -184,7 +184,7 @@ iframe {
     font-weight: 500 !important;
 }
 
-.lexend-500 {
+.lexend-600 {
     font-weight: 600 !important;
 }
 
@@ -212,11 +212,11 @@ h1 {
 
 .small-vanilla-header {
     font-family: 'Lexend', serif;
-    font-size: 2.4rem;
-    line-height: 3.2rem;
-    font-weight: 100;
+    font-size: 2rem;
+    line-height: 2.8rem;
+    font-weight: 200;
     color: #222;
-}
+} 
 
 .visually-hidden {
     position: absolute;
@@ -234,17 +234,6 @@ h2 {
     line-height: 2.8rem;
 }
 
-/*
-h2 a:hover {
-    text-decoration: underline solid #FA4E4D;
-    color: #FF4258;
-}
-
-h2 a {
-    color: #FF4258;
-}
-*/
-
 h3 {
     font-family: industry-inc-base, sans-serif;
     font-size: 3.5rem;
@@ -253,10 +242,9 @@ h3 {
 
 .eyebrow-header {
     font-family: 'Lexend', serif;
-    font-weight: 400 !important;
+    font-weight: 300 !important;
     font-size: 1.3rem !important;
     text-transform: uppercase;
-    color: #363636;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -291,6 +279,22 @@ h3 {
 }
 
 p {
+  font-family: 'Lexend', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.55;      /* unitless = scales with the font size */
+  letter-spacing: 0;
+}
+.meta-data {
+  font-family: 'Lexend', sans-serif;  
+  font-size: 1.1rem;
+  font-weight: 200;
+  line-height: 1.5;
+  letter-spacing: 0;
+  color: #2e2e2e;
+}
+
+/* p {
     font-family: 'Lexend', sans-serif;
     font-weight: 200;
     font-size: 1.4rem;
@@ -305,7 +309,7 @@ p {
     letter-spacing: .05rem;
     line-height: 1.8rem;
     color: #2e2e2e;
-}
+} */
 
 ul {
     font-family: 'Lexend', sans-serif;
@@ -414,7 +418,7 @@ figcaption {
 
 .navbar ul {
     font-family: 'Lexend', sans-serif;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-weight: 300;
     text-transform: uppercase;
     margin-right: 1rem;
@@ -550,24 +554,6 @@ header {
     background: lightgrey;  
 }
 
-/* MODAL STYLING */
-
-.modal-body {
-    padding: 0;
-}
-
-#minnieModal button {
-    color:red;
-    background: none;
-    border: none;
-}
-
-.close:focus,
-.close:active {
-    outline: none;
-    box-shadow: none;
-}
-
 /* CASE STUDY CARDS */
 
 .card {
@@ -597,6 +583,13 @@ header {
     text-decoration: none;
 }
 
+.card-tags { 
+    font-size: .9rem;
+    font-weight: 200;
+    color: grey;
+}
+
+/*
 .first-position {
     width: 100%;
     height: 0;
@@ -606,6 +599,11 @@ header {
     background-size: 200%;
     display: block;
     border-radius: .8rem;
+}
+
+.first-position:hover {
+    background-position: 100% 0;
+    border-radius: 1.6rem;
 }
 
 .second-position {
@@ -619,6 +617,11 @@ header {
     border-radius: .8rem;
 }
 
+.second-position:hover {
+    background-position: 100% 0;
+    border-radius: 1.6rem;
+}
+
 .third-position {
     width: 100%;
     height: 0;
@@ -628,6 +631,11 @@ header {
     background-size: 200%;
     display: block;
     border-radius: .8rem;
+}
+
+.third-position:hover {
+    background-position: 100% 0;
+    border-radius: 1.6rem;
 }
 
 .fourth-position {
@@ -640,26 +648,74 @@ header {
     display: block;
     border-radius: .8rem;
 }
-
-.first-position:hover {
-    background-position: 100% 0;
-    border-radius: 1.6rem;
-}
-
-.second-position:hover {
-    background-position: 100% 0;
-    border-radius: 1.6rem;
-}
-
-.third-position:hover {
-    background-position: 100% 0;
-    border-radius: 1.6rem;
-}
-
 .fourth-position:hover {
     background-position: 100% 0;
     border-radius: 1.6rem;
+}    
+*/
+
+.first-position {
+  position: relative;
+  width: 100%; height: 0; padding-bottom: 66%;
+  background: url("../images/jf-default.png") center / cover no-repeat;
+  border-radius: 0.8rem;
+  display: block;
 }
+.first-position::after {
+  content: ""; position: absolute; inset: 0;
+  background: url("../images/jf-hover.png") center / cover no-repeat;
+  border-radius: inherit;
+  opacity: 0; transition: opacity 0.3s, border-radius 0.3s;
+}
+.first-position:hover::after { opacity: 1; }
+
+
+.second-position {
+  position: relative;
+  width: 100%; height: 0; padding-bottom: 66%;
+  background: url("../images/pt-default.png") center / cover no-repeat;
+  border-radius: 0.8rem;
+  display: block;
+}
+.second-position::after {
+  content: ""; position: absolute; inset: 0;
+  background: url("../images/pt-hover.png") center / cover no-repeat;
+  border-radius: inherit;
+  opacity: 0; transition: opacity 0.3s, border-radius 0.3s;
+}
+.second-position:hover::after { opacity: 1; }
+
+
+.third-position {
+  position: relative;
+  width: 100%; height: 0; padding-bottom: 66%;
+  background: url("../images/fr-default.png") center / cover no-repeat;
+  border-radius: 0.8rem;
+  display: block;
+}
+.third-position::after {
+  content: ""; position: absolute; inset: 0;
+  background: url("../images/fr-hover.png") center / cover no-repeat;
+  border-radius: inherit;
+  opacity: 0; transition: opacity 0.3s, border-radius 0.3s;
+}
+.third-position:hover::after { opacity: 1; }
+
+
+.fourth-position {
+  position: relative;
+  width: 100%; height: 0; padding-bottom: 66%;
+  background: url("../images/qc-default.png") center / cover no-repeat;
+  border-radius: 0.8rem;
+  display: block;
+}
+.fourth-position::after {
+  content: ""; position: absolute; inset: 0;
+  background: url("../images/qc-hover.png") center / cover no-repeat;
+  border-radius: inherit;
+  opacity: 0; transition: opacity 0.3s, border-radius 0.3s;
+}
+.fourth-position:hover::after { opacity: 1; }
 
 @media(hover: hover) and (pointer: coarse) {
     .card a:hover {
@@ -715,7 +771,6 @@ header {
 /* FOOTER ELEMENTS */
 
 footer {
-    /*width: 100vw;*/
     position: absolute;
     overflow-x: clip;
     left: 0;
@@ -804,7 +859,7 @@ footer i {
     font-size: 2.2rem;
 }
 
-i:hover {
+footer i:hover {
     color:#FF4258;
 }
 
