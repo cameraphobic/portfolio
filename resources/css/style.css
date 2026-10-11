@@ -727,6 +727,93 @@ header {
     }
 }
 
+/* PLACEHOLDER PAGES (under construction, password protected) */
+
+.placeholder-page {
+    padding: 15% 2% 0 2%;
+}
+
+.placeholder-gif {
+    max-width: 220px;
+    margin-bottom: 2rem;
+}
+
+.placeholder-copy {
+    max-width: 30rem;
+}
+
+.placeholder-copy h2 {
+    margin-bottom: 1rem;
+}
+
+.password-input {
+    width: 20rem !important;
+    height: 3rem;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 200;
+    font-size: 1.1rem;
+    color: #222222;
+    border: solid 1px #222222;
+    border-radius: 0;
+    margin-right: .5rem;
+}
+
+.password-input:focus {
+    border-color: #222222;
+    box-shadow: 0 0 0 0.2rem pink;
+}
+
+.password-input.is-invalid,
+.password-input.is-invalid:focus {
+    border-color: #FF4258;
+    box-shadow: 0 0 0 0.2rem pink;
+    background-image: none;
+    padding-right: .75rem;
+}
+
+.password-btn {
+    height: 3rem;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 300;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #222222;
+    border: solid 1px #222222;
+    border-radius: 0;
+}
+
+.password-btn:hover,
+.password-btn:focus {
+    color: #222222;
+    background-color: pink;
+    border-color: #222222;
+    box-shadow: none;
+}
+
+.placeholder-copy .invalid-feedback {
+    font-family: 'Lexend', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    color: #FF4258;
+    margin-top: .6rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .placeholder-page {
+        padding-top: 25%;
+    }
+
+    .password-input {
+        width: 100% !important;
+        margin: 0 0 .5rem 0;
+    }
+
+    .password-btn {
+        width: 100%;
+    }
+}
+
 
 
 /* INSTAFEED
